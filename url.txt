@@ -1,2 +1,3 @@
-link aplikasi untuk diakses publik
-https://oliststoredashboard-app.streamlit.app/
+link aplikasi untuk diakses publik : https://oliststoredashboard-app.streamlit.app/
+
+link github : https://github.com/nuratikahbudiutami-hue/Olist_Store_Dashboard
