@@ -10,7 +10,7 @@ from streamlit_folium import st_folium
 # 1️⃣ STREAMLIT CONFIG
 # ===============================
 st.set_page_config(
-    page_title="Olist Store Dashboard Level Up Final",
+    page_title="Olist Store Dashboard",
     layout="wide"
 )
 
@@ -53,7 +53,7 @@ except FileNotFoundError:
 # ===============================
 # 3️⃣ SIDEBAR FILTER
 # ===============================
-st.sidebar.title("🎛️ Filter Dashboard Level Up")
+st.sidebar.title("🎛️ Filter Dashboard")
 
 # Filter Kategori Produk
 category_options = sorted(product_sales_df["product_category_name_english"].dropna().unique())
@@ -103,7 +103,7 @@ filtered_geo = geospatial_sales_df[
 # ===============================
 # 5️⃣ KPI CARDS
 # ===============================
-st.title("🌻 OLIST STORE DASHBOARD - LEVEL UP FINAL")
+st.title("🌻 OLIST STORE DASHBOARD")
 st.markdown("Dashboard interaktif tingkat lanjut")
 
 total_orders = int(filtered_orders.shape[0]) if not filtered_orders.empty else 0
@@ -122,7 +122,7 @@ st.markdown("---")
 # ===============================
 # 6️⃣ TOP PRODUCT CATEGORY
 # ===============================
-st.subheader("🔰 Top Produk")
+st.subheader("📊 Top Produk")
 fig, ax = plt.subplots(figsize=(12,6))
 
 if not filtered_products.empty:
@@ -190,7 +190,7 @@ st_folium(m, width=900, height=500)
 # 🔟 AUTOMATIC INSIGHT
 # ===============================
 st.markdown("---")
-st.subheader("💡 Insight Singkat")
+st.subheader("💡 Insight")
 
 if filtered_geo.empty or filtered_products.empty:
     st.info("Tidak ada data untuk filter yang dipilih. Silakan sesuaikan filter di sidebar.")
