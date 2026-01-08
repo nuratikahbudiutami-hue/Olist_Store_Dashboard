@@ -10,7 +10,7 @@ from streamlit_folium import st_folium
 # STREAMLIT CONFIG
 # ===============================
 st.set_page_config(
-    page_title="Olist Store Dashboard Level Up",
+    page_title="Olist Store Dashboard Level Up Final",
     layout="wide"
 )
 
@@ -30,14 +30,15 @@ def load_data():
     order_items_df = pd.read_csv(f"{DATA_DIR}/order_items_data.csv")
     geo_df = pd.read_csv(f"{DATA_DIR}/geospatial_sales_data.csv")
     return product_sales_df, city_metrics, state_metrics, orders_df, order_items_df, geo_df
+
 try:
     product_sales_df, city_metrics, state_metrics, orders_df, order_items_df, geospatial_sales_df = load_data()
 except FileNotFoundError:
-    st.error(" Folder `data/` atau file CSV tidak ditemukan.")
+    st.error("❌ Folder `data/` atau file CSV tidak ditemukan.")
     st.stop()
 
 # ===============================
-# SIDEBAR FILTER (MULTISELECT + SLIDER)
+# SIDEBAR FILTER
 # ===============================
 st.sidebar.title("🎛️ Filter Dashboard Level Up")
 
@@ -68,8 +69,14 @@ top_n = st.sidebar.slider("Top N Items untuk Chart", 5, 20, 10)
 # APPLY FILTER
 # ===============================
 filtered_products = product_sales_df[product_sales_df["product_category_name_english"].isin(selected_categories)]
-filtered_orders = orders_df[(orders_df["delivery_time"] >= delivery_range[0]) & (orders_df["delivery_time"] <= delivery_range[1])]
-filtered_items = order_items_df[(order_items_df["price"] >= price_range[0]) & (order_items_df["price"] <= price_range[1])]
+filtered_orders = orders_df[
+    (orders_df["delivery_time"] >= delivery_range[0]) &
+    (orders_df["delivery_time"] <= delivery_range[1])
+]
+filtered_items = order_items_df[
+    (order_items_df["price"] >= price_range[0]) &
+    (order_items_df["price"] <= price_range[1])
+]
 filtered_geo = geospatial_sales_df[
     geospatial_sales_df["customer_city"].isin(selected_cities) &
     geospatial_sales_df["customer_state"].isin(selected_states)
@@ -78,13 +85,13 @@ filtered_geo = geospatial_sales_df[
 # ===============================
 # KPI CARDS
 # ===============================
-st.title("🌻 OLIST STORE DASHBOARD - LEVEL UP")
+st.title("🌻 OLIST STORE DASHBOARD - LEVEL UP FINAL")
 st.markdown("Dashboard interaktif tingkat lanjut")
 
-total_orders = int(filtered_orders.shape[0])
-total_sales = float(filtered_items["price"].sum())
-avg_delivery = round(filtered_orders["delivery_time"].mean(), 2)
-avg_price = round(filtered_items["price"].mean(), 2)
+total_orders = int(filtered_orders.shape[0]) if not filtered_orders.empty else 0
+total_sales = float(filtered_items["price"].sum()) if not filtered_items.empty else 0
+avg_delivery = round(filtered_orders["delivery_time"].mean(), 2) if not filtered_orders.empty else 0
+avg_price = round(filtered_items["price"].mean(), 2) if not filtered_items.empty else 0
 
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("📦 Total Orders", total_orders)
@@ -99,54 +106,7 @@ st.markdown("---")
 # ===============================
 st.subheader("🔰 Top Produk")
 fig, ax = plt.subplots(figsize=(12,6))
-top_products = filtered_products.sort_values(by=filtered_products.columns[1], ascending=False).head(top_n)
-sns.barplot(data=top_products, x="product_category_name_english", y=filtered_products.columns[1], color="mediumseagreen", ax=ax)
-ax.tick_params(axis="x", rotation=45)
-st.pyplot(fig)
-
-# ===============================
-# DISTRIBUSI WAKTU PENGIRIMAN
-# ===============================
-st.subheader(" Distribusi Waktu Pengiriman")
-fig, ax = plt.subplots(figsize=(12,6))
-sns.histplot(filtered_orders["delivery_time"].dropna(), bins=30, kde=True, color="cornflowerblue", ax=ax)
-st.pyplot(fig)
-
-# ===============================
-# DISTRIBUSI HARGA PRODUK
-# ===============================
-st.subheader(" Distribusi Harga Produk")
-fig, ax = plt.subplots(figsize=(12,6))
-sns.histplot(filtered_items["price"], bins=40, kde=True, color="orchid", ax=ax)
-st.pyplot(fig)
-
-# ===============================
-# MAP GEOSPATIAL
-# ===============================
-st.subheader(" Distribusi Geografis Penjualan")
-m = folium.Map(location=[-14.235, -51.925], zoom_start=4)
-
-for _, row in filtered_geo.iterrows():
-    folium.CircleMarker(
-        location=[row["geolocation_lat"], row["geolocation_lng"]],
-        radius=min(row["total_orders"]*0.05, 20),
-        popup=f"Kota: {row['customer_city']}<br>State: {row['customer_state']}<br>Orders: {int(row['total_orders'])}<br>Sales: {row['total_sales']:.2f}",
-        color="blue",
-        fill=True,
-        fill_opacity=0.6
-    ).add_to(m)
-
-st_folium(m, width=900, height=500)
-
-# ===============================
-# AUTOMATIC INSIGHT
-# ===============================
-st.markdown("---")
-st.subheader(" Insight")
-if total_orders == 0:
-    st.info("Tidak ada data untuk filter yang dipilih.")
-else:
-    st.write(f"- Kota dengan total orders terbanyak: {filtered_geo.sort_values('total_orders', ascending=False).head(1)['customer_city'].values[0]}")
-    st.write(f"- Produk dengan penjualan tertinggi: {top_products.iloc[0,0]}")
-    st.write(f"- Rata-rata waktu pengiriman: {avg_delivery} hari")
-    st.write(f"- Rata-rata harga produk: ${avg_price:.2f}")
+if not filtered_products.empty:
+    top_products = filtered_products.sort_values(by=filtered_products.columns[1], ascending=False).head(top_n)
+    sns.barplot(data=top_products, x="product_category_name_english", y=filtered_products.columns[1], color="mediumseagreen", ax=ax)
+    ax.tick_params(axis="x", rotati_
