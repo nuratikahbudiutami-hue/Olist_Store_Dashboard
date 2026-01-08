@@ -7,7 +7,7 @@ import folium
 from streamlit_folium import st_folium
 
 # ===============================
-# STREAMLIT CONFIG
+# 1️⃣ STREAMLIT CONFIG
 # ===============================
 st.set_page_config(
     page_title="Olist Store Dashboard Level Up Final",
@@ -15,30 +15,33 @@ st.set_page_config(
 )
 
 # ===============================
-# PATH & LOAD DATA
+# 2️⃣ PATH & LOAD DATA
 # ===============================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 @st.cache_data
 def load_data():
+    """Load semua CSV yang dibutuhkan"""
     product_sales_df = pd.read_csv(
-        f"{DATA_DIR}/product_sales_by_category.csv",
+        os.path.join(DATA_DIR, "product_sales_by_category.csv"),
         index_col="product_category_name_english"
     ).reset_index()
-
-    city_metrics = pd.read_csv(f"{DATA_DIR}/city_metrics.csv", index_col="customer_city")
-    state_metrics = pd.read_csv(f"{DATA_DIR}/state_metrics.csv", index_col="customer_state")
+    
+    city_metrics = pd.read_csv(os.path.join(DATA_DIR, "city_metrics.csv"), index_col="customer_city")
+    state_metrics = pd.read_csv(os.path.join(DATA_DIR, "state_metrics.csv"), index_col="customer_state")
     
     orders_df = pd.read_csv(
-        f"{DATA_DIR}/orders_data.csv",
+        os.path.join(DATA_DIR, "orders_data.csv"),
         parse_dates=["order_purchase_timestamp", "order_delivered_customer_date"]
     )
-    orders_df["delivery_time"] = (orders_df["order_delivered_customer_date"] - orders_df["order_purchase_timestamp"]).dt.days
-
-    order_items_df = pd.read_csv(f"{DATA_DIR}/order_items_data.csv")
-    geo_df = pd.read_csv(f"{DATA_DIR}/geospatial_sales_data.csv")
-
+    orders_df["delivery_time"] = (
+        orders_df["order_delivered_customer_date"] - orders_df["order_purchase_timestamp"]
+    ).dt.days
+    
+    order_items_df = pd.read_csv(os.path.join(DATA_DIR, "order_items_data.csv"))
+    geo_df = pd.read_csv(os.path.join(DATA_DIR, "geospatial_sales_data.csv"))
+    
     return product_sales_df, city_metrics, state_metrics, orders_df, order_items_df, geo_df
 
 try:
@@ -48,7 +51,7 @@ except FileNotFoundError:
     st.stop()
 
 # ===============================
-# SIDEBAR FILTER
+# 3️⃣ SIDEBAR FILTER
 # ===============================
 st.sidebar.title("🎛️ Filter Dashboard Level Up")
 
@@ -76,26 +79,29 @@ price_range = st.sidebar.slider("Harga Produk", min_price, max_price, (min_price
 top_n = st.sidebar.slider("Top N Items untuk Chart", 5, 20, 10)
 
 # ===============================
-# APPLY FILTER
+# 4️⃣ APPLY FILTER
 # ===============================
 filtered_products = product_sales_df[
     product_sales_df["product_category_name_english"].isin(selected_categories)
 ]
+
 filtered_orders = orders_df[
     (orders_df["delivery_time"] >= delivery_range[0]) &
     (orders_df["delivery_time"] <= delivery_range[1])
 ]
+
 filtered_items = order_items_df[
     (order_items_df["price"] >= price_range[0]) &
     (order_items_df["price"] <= price_range[1])
 ]
+
 filtered_geo = geospatial_sales_df[
-    geospatial_sales_df["customer_city"].isin(selected_cities) &
-    geospatial_sales_df["customer_state"].isin(selected_states)
+    (geospatial_sales_df["customer_city"].isin(selected_cities)) &
+    (geospatial_sales_df["customer_state"].isin(selected_states))
 ]
 
 # ===============================
-# KPI CARDS
+# 5️⃣ KPI CARDS
 # ===============================
 st.title("🌻 OLIST STORE DASHBOARD - LEVEL UP FINAL")
 st.markdown("Dashboard interaktif tingkat lanjut")
@@ -114,16 +120,18 @@ col4.metric("🏷️ Rata-rata Harga", f"${avg_price:,.2f}")
 st.markdown("---")
 
 # ===============================
-# TOP PRODUCT CATEGORY
+# 6️⃣ TOP PRODUCT CATEGORY
 # ===============================
 st.subheader("🔰 Top Produk")
 fig, ax = plt.subplots(figsize=(12,6))
+
 if not filtered_products.empty:
-    top_products = filtered_products.sort_values(by=filtered_products.columns[1], ascending=False).head(top_n)
+    sales_col = filtered_products.columns[1]  # pastikan kolom jumlah penjualan
+    top_products = filtered_products.sort_values(by=sales_col, ascending=False).head(top_n)
     sns.barplot(
         data=top_products,
         x="product_category_name_english",
-        y=filtered_products.columns[1],
+        y=sales_col,
         color="mediumseagreen",
         ax=ax
     )
@@ -133,7 +141,7 @@ else:
 st.pyplot(fig)
 
 # ===============================
-# DISTRIBUSI WAKTU PENGIRIMAN
+# 7️⃣ DISTRIBUSI WAKTU PENGIRIMAN
 # ===============================
 st.subheader("🚚 Distribusi Waktu Pengiriman")
 fig, ax = plt.subplots(figsize=(12,6))
@@ -144,7 +152,7 @@ else:
 st.pyplot(fig)
 
 # ===============================
-# DISTRIBUSI HARGA PRODUK
+# 8️⃣ DISTRIBUSI HARGA PRODUK
 # ===============================
 st.subheader("💰 Distribusi Harga Produk")
 fig, ax = plt.subplots(figsize=(12,6))
@@ -155,10 +163,11 @@ else:
 st.pyplot(fig)
 
 # ===============================
-# MAP GEOSPATIAL
+# 9️⃣ MAP GEOSPATIAL
 # ===============================
 st.subheader("🗺️ Distribusi Geografis Penjualan")
 m = folium.Map(location=[-14.235, -51.925], zoom_start=4)
+
 if not filtered_geo.empty:
     for _, row in filtered_geo.iterrows():
         folium.CircleMarker(
@@ -174,13 +183,15 @@ else:
         location=[-14.235, -51.925],
         popup="Tidak ada data untuk filter ini"
     ).add_to(m)
+
 st_folium(m, width=900, height=500)
 
 # ===============================
-# AUTOMATIC INSIGHT
+# 🔟 AUTOMATIC INSIGHT
 # ===============================
 st.markdown("---")
 st.subheader("💡 Insight Singkat")
+
 if filtered_geo.empty or filtered_products.empty:
     st.info("Tidak ada data untuk filter yang dipilih. Silakan sesuaikan filter di sidebar.")
 else:
