@@ -1,1 +1,2 @@
+link aplikasi untuk diakses publik
 https://oliststoredashboard-app.streamlit.app/
