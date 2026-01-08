@@ -6,7 +6,7 @@ import seaborn as sns
 import streamlit as st
 import streamlit_folium
 import folium
-from streamlit_folium import folium_static
+from streamlit_folium import st_folium
 import os
 
 # Menentukan direktori data yang disimpan dalam github
@@ -151,4 +151,4 @@ for index, row in geospatial_sales_df.iterrows():
         popup=f"City: {row['customer_city']}<br>State: {row['customer_state']}<br>Total Orders: {int(row['total_orders'])}<br>Total Sales: {row['total_sales']:.2f}"
     ).add_to(m)
 
-folium_static(m)
+st_folium(m, width=700, height=500)
