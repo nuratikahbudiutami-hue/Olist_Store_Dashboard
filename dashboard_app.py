@@ -127,7 +127,7 @@ if not filtered_products.empty:
         color="mediumseagreen",
         ax=ax
     )
-    ax.tick_params(axis="x", rotation=45)  # ✅ perbaikan syntax
+    ax.tick_params(axis="x", rotation=45)
 else:
     ax.text(0.5, 0.5, "Tidak ada data untuk filter ini", ha='center', va='center', fontsize=14)
 st.pyplot(fig)
