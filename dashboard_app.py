@@ -6,17 +6,17 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 
-# ===============================
+# =================================================
 # STREAMLIT CONFIG (WAJIB PALING ATAS)
-# ===============================
+# =================================================
 st.set_page_config(
-    page_title="E-Commerce Sales Dashboard",
+    page_title="Olist Store Dashboard",
     layout="wide"
 )
 
-# ===============================
+# =================================================
 # PATH & DATA LOADING
-# ===============================
+# =================================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
@@ -25,215 +25,195 @@ def load_data():
     product_sales = pd.read_csv(
         f"{DATA_DIR}/product_sales_by_category.csv",
         index_col="product_category_name_english"
-    )
-
+    ).reset_index()
     city_metrics = pd.read_csv(
-        f"{DATA_DIR}/city_metrics.csv",
-        index_col="customer_city"
+        f"{DATA_DIR}/city_metrics.csv"
     )
-
     state_metrics = pd.read_csv(
-        f"{DATA_DIR}/state_metrics.csv",
-        index_col="customer_state"
+        f"{DATA_DIR}/state_metrics.csv"
     )
-
     orders_df = pd.read_csv(
         f"{DATA_DIR}/orders_data.csv",
         parse_dates=[
             "order_purchase_timestamp",
-            "order_approved_at",
-            "order_delivered_carrier_date",
-            "order_delivered_customer_date",
-            "order_estimated_delivery_date"
+            "order_delivered_customer_date"
         ]
     )
-
     orders_df["delivery_time"] = (
         orders_df["order_delivered_customer_date"]
         - orders_df["order_purchase_timestamp"]
     ).dt.days
-
     order_items_df = pd.read_csv(
-        f"{DATA_DIR}/order_items_data.csv",
-        parse_dates=["shipping_limit_date"]
+        f"{DATA_DIR}/order_items_data.csv"
     )
-
-    geo_df = pd.read_csv(f"{DATA_DIR}/geospatial_sales_data.csv")
-
+    geo_df = pd.read_csv(
+        f"{DATA_DIR}/geospatial_sales_data.csv"
+    )
     return product_sales, city_metrics, state_metrics, orders_df, order_items_df, geo_df
-
-
 try:
     (
-        product_sales_by_category,
+        product_sales_df,
         city_metrics,
         state_metrics,
         orders_df,
         order_items_df,
-        geospatial_sales_df
+        geo_df
     ) = load_data()
 except FileNotFoundError:
     st.error(" Folder `data/` atau file CSV tidak ditemukan.")
     st.stop()
 
-# ===============================
-# TITLE
-# ===============================
-st.title("🌻 OLIST STORE DASHBOARD")
-st.write(
-    "Dashboard interaktif untuk menampilkan hasil analisis penjualan "
-    "E-Commerce Olist Store."
+# =================================================
+# SIDEBAR FILTER (INTERAKTIF)
+# =================================================
+st.sidebar.title("🎛️ Filter Dashboard")
+# Kategori Produk
+category_options = ["All"] + sorted(
+    product_sales_df["product_category_name_english"].dropna().unique()
+)
+selected_category = st.sidebar.selectbox(
+    "Kategori Produk",
+    category_options
+)
+# Kota
+city_options = ["All"] + sorted(
+    orders_df["customer_city"].dropna().unique()
+)
+selected_city = st.sidebar.selectbox(
+    "Kota",
+    city_options
+)
+# Negara Bagian
+state_options = ["All"] + sorted(
+    orders_df["customer_state"].dropna().unique()
+)
+selected_state = st.sidebar.selectbox(
+    "Negara Bagian",
+    state_options
+)
+# Delivery Time Slider
+min_day = int(orders_df["delivery_time"].min())
+max_day = int(orders_df["delivery_time"].max())
+delivery_range = st.sidebar.slider(
+    "Waktu Pengiriman (hari)",
+    min_day,
+    max_day,
+    (min_day, max_day)
+)
+# Price Slider
+min_price = float(order_items_df["price"].min())
+max_price = float(order_items_df["price"].max())
+price_range = st.sidebar.slider(
+    "Harga Produk",
+    min_price,
+    max_price,
+    (min_price, max_price)
 )
 
+# =================================================
+# APPLY FILTER
+# =================================================
+filtered_orders = orders_df.copy()
+if selected_city != "All":
+    filtered_orders = filtered_orders[
+        filtered_orders["customer_city"] == selected_city
+    ]
+if selected_state != "All":
+    filtered_orders = filtered_orders[
+        filtered_orders["customer_state"] == selected_state
+    ]
+filtered_orders = filtered_orders[
+    (filtered_orders["delivery_time"] >= delivery_range[0]) &
+    (filtered_orders["delivery_time"] <= delivery_range[1])
+]
+filtered_items = order_items_df[
+    (order_items_df["price"] >= price_range[0]) &
+    (order_items_df["price"] <= price_range[1])
+]
+filtered_category = product_sales_df.copy()
+if selected_category != "All":
+    filtered_category = filtered_category[
+        filtered_category["product_category_name_english"] == selected_category
+    ]
+    
+# =================================================
+# TITLE
+# =================================================
+st.title("🌻 OLIST STORE DASHBOARD")
+st.write("Dashboard interaktif analisis penjualan Olist Store")
 st.markdown("---")
 
-# ===============================
-# 1. TOP & BOTTOM PRODUCT CATEGORY
-# ===============================
-st.subheader("🔰 Kategori Produk: Penjualan Tertinggi & Terendah")
-
-col1, col2 = st.columns(2)
-
-with col1:
-    st.markdown("#### Penjualan Tertinggi")
-    top_products = (
-        product_sales_by_category
-        .sort_values(by=product_sales_by_category.columns[0], ascending=False)
-        .head(10)
-        .reset_index()
-    )
-    top_products.columns = ["Kategori Produk", "Jumlah Item Terjual"]
-
-    fig, ax = plt.subplots(figsize=(10, 6))
-    sns.barplot(
-        data=top_products,
-        x="Kategori Produk",
-        y="Jumlah Item Terjual",
-        color="palegreen",
-        ax=ax
-    )
-    ax.set_title("Top 10 Kategori Produk")
-    ax.tick_params(axis="x", rotation=45)
-    st.pyplot(fig)
-
-with col2:
-    st.markdown("#### Penjualan Terendah")
-    bottom_products = (
-        product_sales_by_category
-        .sort_values(by=product_sales_by_category.columns[0])
-        .head(10)
-        .reset_index()
-    )
-    bottom_products.columns = ["Kategori Produk", "Jumlah Item Terjual"]
-
-    fig, ax = plt.subplots(figsize=(10, 6))
-    sns.barplot(
-        data=bottom_products,
-        x="Kategori Produk",
-        y="Jumlah Item Terjual",
-        color="lightcoral",
-        ax=ax
-    )
-    ax.set_title("Bottom 10 Kategori Produk")
-    ax.tick_params(axis="x", rotation=45)
-    st.pyplot(fig)
-
-st.markdown("---")
-
-# ===============================
-# 2. ORDER VOLUME
-# ===============================
-st.subheader("🔰 Volume Pesanan per Wilayah")
-
-col1, col2 = st.columns(2)
-
-with col1:
-    st.markdown("#### Kota Teratas")
-    top_cities = city_metrics.sort_values(
-        by="order_volume", ascending=False
-    ).head(10).reset_index()
-
-    fig, ax = plt.subplots(figsize=(10, 6))
-    sns.barplot(
-        data=top_cities,
-        x="customer_city",
-        y="order_volume",
-        color="lightsteelblue",
-        ax=ax
-    )
-    ax.set_title("Top 10 Kota")
-    ax.tick_params(axis="x", rotation=45)
-    st.pyplot(fig)
-
-with col2:
-    st.markdown("#### Negara Bagian Teratas")
-    top_states = state_metrics.sort_values(
-        by="order_volume", ascending=False
-    ).head(10).reset_index()
-
-    fig, ax = plt.subplots(figsize=(10, 6))
-    sns.barplot(
-        data=top_states,
-        x="customer_state",
-        y="order_volume",
-        color="rosybrown",
-        ax=ax
-    )
-    ax.set_title("Top 10 Negara Bagian")
-    ax.tick_params(axis="x", rotation=45)
-    st.pyplot(fig)
-
-st.markdown("---")
-
-# ===============================
-# 3. DISTRIBUTIONS
-# ===============================
-st.subheader("🔰 Distribusi Pengiriman & Harga")
-
-st.markdown("#### Waktu Pengiriman")
-fig, ax = plt.subplots(figsize=(10, 6))
-sns.histplot(
-    orders_df["delivery_time"].dropna(),
-    bins=30,
-    kde=True,
+# =================================================
+# PRODUCT CATEGORY
+# =================================================
+st.subheader("🔰 Penjualan per Kategori Produk")
+fig, ax = plt.subplots(figsize=(12, 6))
+sns.barplot(
+    data=filtered_category.sort_values(
+        filtered_category.columns[1],
+        ascending=False
+    ).head(10),
+    x="product_category_name_english",
+    y=filtered_category.columns[1],
     color="mediumseagreen",
     ax=ax
 )
+ax.tick_params(axis="x", rotation=45)
 st.pyplot(fig)
+st.markdown("---")
 
-st.markdown("#### Harga Produk")
-fig, ax = plt.subplots(figsize=(10, 6))
+# =================================================
+# DELIVERY TIME DISTRIBUTION
+# =================================================
+st.subheader(" Distribusi Waktu Pengiriman")
+fig, ax = plt.subplots(figsize=(12, 6))
 sns.histplot(
-    order_items_df["price"],
-    bins=50,
+    filtered_orders["delivery_time"].dropna(),
+    bins=30,
     kde=True,
-    color="thistle",
+    color="cornflowerblue",
     ax=ax
 )
 st.pyplot(fig)
 
+# =================================================
+# PRICE DISTRIBUTION
+# =================================================
+st.subheader(" Distribusi Harga Produk")
+fig, ax = plt.subplots(figsize=(12, 6))
+sns.histplot(
+    filtered_items["price"],
+    bins=40,
+    kde=True,
+    color="orchid",
+    ax=ax
+)
+st.pyplot(fig)
 st.markdown("---")
 
-# ===============================
-# 4. GEOSPATIAL MAP
-# ===============================
-st.subheader("🔰 Distribusi Geografis Penjualan")
-
+# =================================================
+# GEOSPATIAL MAP
+# =================================================
+st.subheader(" Distribusi Geografis Penjualan")
+map_data = geo_df.copy()
+if selected_city != "All":
+    map_data = map_data[map_data["customer_city"] == selected_city]
+if selected_state != "All":
+    map_data = map_data[map_data["customer_state"] == selected_state]
 m = folium.Map(location=[-14.235, -51.925], zoom_start=4)
 
-for _, row in geospatial_sales_df.iterrows():
+for _, row in map_data.iterrows():
     folium.CircleMarker(
         location=[row["geolocation_lat"], row["geolocation_lng"]],
         radius=min(row["total_orders"] * 0.05, 20),
-        popup=(
-            f"Kota: {row['customer_city']}<br>"
-            f"State: {row['customer_state']}<br>"
-            f"Total Orders: {int(row['total_orders'])}<br>"
-            f"Total Sales: {row['total_sales']:.2f}"
-        ),
+        popup=f"""
+        Kota: {row['customer_city']}<br>
+        State: {row['customer_state']}<br>
+        Orders: {int(row['total_orders'])}<br>
+        Sales: {row['total_sales']:.2f}
+        """,
         color="blue",
         fill=True,
         fill_opacity=0.6
     ).add_to(m)
-
 st_folium(m, width=800, height=500)
