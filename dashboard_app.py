@@ -9,8 +9,8 @@ import folium
 from streamlit_folium import folium_static
 import os
 
-# Menentukan direktori data yang disimpan di Google Drive
-data_dir = '/content/drive/MyDrive/Colab_Notebooks/data'
+# Menentukan direktori data yang disimpan dalam github
+data_dir = os.path.join(os.getcwd(), "data")
 
 # Memuat DataFrame
 try:
