@@ -6,17 +6,13 @@ import streamlit as st
 import folium
 from streamlit_folium import st_folium
 
-# ===============================
-# 1️⃣ STREAMLIT CONFIG
-# ===============================
+# 1. KONFIGURASI STREAMLIT
 st.set_page_config(
     page_title="Olist Store Dashboard",
     layout="wide"
 )
 
-# ===============================
-# 2️⃣ PATH & LOAD DATA
-# ===============================
+# 2. PATH & LOAD DATA
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
@@ -50,37 +46,33 @@ except FileNotFoundError:
     st.error("❌ Folder `data/` atau file CSV tidak ditemukan.")
     st.stop()
 
-# ===============================
-# 3️⃣ SIDEBAR FILTER
-# ===============================
+# 3. FILTER INTERAKTIF
 st.sidebar.title("🎛️ Filter Dashboard")
 
 # Filter Kategori Produk
 category_options = sorted(product_sales_df["product_category_name_english"].dropna().unique())
-selected_categories = st.sidebar.multiselect("Kategori Produk", category_options, default=category_options)
+selected_categories = st.sidebar.multiselect("Memilih Kategori Produk", category_options, default=category_options)
 
 # Filter Kota
 city_options = sorted(city_metrics.index.tolist())
-selected_cities = st.sidebar.multiselect("Kota", city_options, default=city_options)
+selected_cities = st.sidebar.multiselect("Memilih Kota", city_options, default=city_options)
 
 # Filter Negara Bagian
 state_options = sorted(state_metrics.index.tolist())
-selected_states = st.sidebar.multiselect("Negara Bagian", state_options, default=state_options)
+selected_states = st.sidebar.multiselect("Memilih Negara Bagian", state_options, default=state_options)
 
 # Slider Waktu Pengiriman
 min_day, max_day = int(orders_df["delivery_time"].min()), int(orders_df["delivery_time"].max())
-delivery_range = st.sidebar.slider("Waktu Pengiriman (hari)", min_day, max_day, (min_day, max_day))
+delivery_range = st.sidebar.slider("Rentang Waktu Pengiriman (hari)", min_day, max_day, (min_day, max_day))
 
 # Slider Harga Produk
 min_price, max_price = float(order_items_df["price"].min()), float(order_items_df["price"].max())
-price_range = st.sidebar.slider("Harga Produk", min_price, max_price, (min_price, max_price))
+price_range = st.sidebar.slider("Rentang Harga Produk (BRL)", min_price, max_price, (min_price, max_price))
 
-# Slider Top-N
-top_n = st.sidebar.slider("Top N Items untuk Chart", 5, 20, 10)
+# Memilih rentang n penjualan tertinggi
+top_n = st.sidebar.slider("Rentang n Produk Penjualan Tertinggi", 5, 20, 10)
 
-# ===============================
-# 4️⃣ APPLY FILTER
-# ===============================
+# 4. MENERAPKAN FILTER
 filtered_products = product_sales_df[
     product_sales_df["product_category_name_english"].isin(selected_categories)
 ]
@@ -100,11 +92,9 @@ filtered_geo = geospatial_sales_df[
     (geospatial_sales_df["customer_state"].isin(selected_states))
 ]
 
-# ===============================
-# 5️⃣ KPI CARDS
-# ===============================
+# 5. KPI (Key Performance Indicators) CARDS
 st.title("🌻 OLIST STORE DASHBOARD")
-st.markdown("Dashboard interaktif tingkat lanjut")
+st.markdown("Dashboard yang menunjukkan hasil analisis penjualan di Olist Store")
 
 total_orders = int(filtered_orders.shape[0]) if not filtered_orders.empty else 0
 total_sales = float(filtered_items["price"].sum()) if not filtered_items.empty else 0
@@ -112,17 +102,15 @@ avg_delivery = round(filtered_orders["delivery_time"].mean(), 2) if not filtered
 avg_price = round(filtered_items["price"].mean(), 2) if not filtered_items.empty else 0
 
 col1, col2, col3, col4 = st.columns(4)
-col1.metric("📦 Total Orders", total_orders)
-col2.metric("💵 Total Sales", f"${total_sales:,.2f}")
-col3.metric("⏱️ Rata-rata Delivery", f"{avg_delivery} hari")
-col4.metric("🏷️ Rata-rata Harga", f"${avg_price:,.2f}")
+col1.metric("📦 Total Penjualan", total_orders)
+col2.metric("💵 Total Nilai Penjualan", f"${total_sales:,.2f}")
+col3.metric("⏱️ Rata-rata Waktu Pengiriman", f"{avg_delivery} hari")
+col4.metric("🏷️ Rata-rata Harga Produk", f"${avg_price:,.2f}")
 
 st.markdown("---")
 
-# ===============================
-# 6️⃣ TOP PRODUCT CATEGORY
-# ===============================
-st.subheader("📊 Top Produk")
+# 6. KATEGORI PRODUK PENJUALAN TERTINGGI
+st.subheader("📊 Kategori Produk Penjualan Tertinggi")
 fig, ax = plt.subplots(figsize=(12,6))
 
 if not filtered_products.empty:
@@ -140,9 +128,7 @@ else:
     ax.text(0.5, 0.5, "Tidak ada data untuk filter ini", ha='center', va='center', fontsize=14)
 st.pyplot(fig)
 
-# ===============================
-# 7️⃣ DISTRIBUSI WAKTU PENGIRIMAN
-# ===============================
+# 7. DISTRIBUSI WAKTU PENGIRIMAN
 st.subheader("🚚 Distribusi Waktu Pengiriman")
 fig, ax = plt.subplots(figsize=(12,6))
 if not filtered_orders.empty:
@@ -151,9 +137,7 @@ else:
     ax.text(0.5, 0.5, "Tidak ada data untuk filter ini", ha='center', va='center', fontsize=14)
 st.pyplot(fig)
 
-# ===============================
-# 8️⃣ DISTRIBUSI HARGA PRODUK
-# ===============================
+# 8. DISTRIBUSI HARGA PRODUK
 st.subheader("💰 Distribusi Harga Produk")
 fig, ax = plt.subplots(figsize=(12,6))
 if not filtered_items.empty:
@@ -162,9 +146,7 @@ else:
     ax.text(0.5, 0.5, "Tidak ada data untuk filter ini", ha='center', va='center', fontsize=14)
 st.pyplot(fig)
 
-# ===============================
-# 9️⃣ MAP GEOSPATIAL
-# ===============================
+# 9. MAP GEOSPATIAL
 st.subheader("🗺️ Distribusi Geografis Penjualan")
 m = folium.Map(location=[-14.235, -51.925], zoom_start=4)
 
