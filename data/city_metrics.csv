@@ -1,0 +1,4086 @@
+customer_city,order_volume,total_sales
+sao paulo,15044,2107871.44
+rio de janeiro,6603,1112015.93
+belo horizonte,2697,405950.51
+brasilia,2071,345199.05000000005
+curitiba,1489,238459.71999999997
+campinas,1406,209002.90000000002
+porto alegre,1341,214611.84
+salvador,1188,207713.30000000002
+guarulhos,1143,157615.52999999997
+sao bernardo do campo,911,116784.57999999999
+niteroi,825,135447.96000000002
+santo andre,778,101863.53
+osasco,724,92448.68000000001
+santos,699,111115.6
+sao jose dos campos,667,86488.5
+goiania,660,113301.29
+fortaleza,618,112951.55
+sorocaba,609,85053.32
+recife,593,104795.5
+florianopolis,557,98006.67
+jundiai,549,90313.88
+ribeirao preto,499,74200.92000000001
+belem,431,93830.03
+nova iguacu,423,68470.1
+juiz de fora,423,74851.45
+barueri,419,57077.09999999999
+contagem,416,57249.4
+sao goncalo,385,59380.09
+mogi das cruzes,374,56768.08
+vitoria,374,61487.649999999994
+uberlandia,367,55691.92
+piracicaba,356,55607.7
+sao luis,335,62151.28999999999
+sao jose do rio preto,329,53296.600000000006
+vila velha,326,54651.490000000005
+maua,317,48117.99
+carapicuiba,316,36701.11
+campo grande,312,64758.83
+praia grande,301,43883.53
+londrina,298,52425.06
+taboao da serra,284,39300.67
+serra,278,41555.07
+diadema,276,33305.01
+indaiatuba,273,41119.44
+sao caetano do sul,272,36423.18
+teresina,271,59131.25
+bauru,263,44290.899999999994
+taubate,260,33717.72
+maringa,260,44263.88000000001
+joinville,257,40500.47
+duque de caxias,250,38406.240000000005
+joao pessoa,245,61117.81
+cuiaba,243,45858.08
+cotia,241,33316.259999999995
+maceio,236,51621.659999999996
+sao carlos,235,34386.33
+petropolis,234,38480.14
+campos dos goytacazes,232,37738.28
+suzano,230,28159.46
+macae,227,36503.969999999994
+volta redonda,227,38606.53
+caxias do sul,220,41558.69
+guaruja,217,32644.02
+americana,216,28142.82
+aracaju,213,42347.44
+montes claros,207,30663.25
+canoas,205,31602.359999999997
+natal,203,42625.09
+santa maria,196,37197.74
+betim,196,32101.510000000002
+marilia,194,37219.88
+jacarei,189,20939.76
+uberaba,186,31881.58
+limeira,186,26060.73
+pelotas,183,27209.34
+feira de santana,181,31427.0
+blumenau,181,28625.770000000004
+valinhos,181,25190.980000000003
+santana de parnaiba,178,25866.019999999997
+sumare,177,24206.99
+itapevi,170,21151.409999999996
+ipatinga,169,25958.559999999998
+itaquaquecetuba,168,21421.83
+sao jose,167,24230.43
+sao vicente,159,21838.86
+embu das artes,157,22400.92
+presidente prudente,157,29162.33
+atibaia,154,23183.87
+franca,154,25275.260000000002
+rio claro,154,22954.920000000002
+cascavel,151,28403.13
+araraquara,150,22649.940000000002
+braganca paulista,144,22683.230000000003
+hortolandia,142,18413.0
+nova friburgo,142,30715.399999999994
+ponta grossa,141,21786.910000000003
+aracatuba,138,19261.269999999997
+manaus,137,25542.800000000003
+cariacica,135,19353.079999999998
+governador valadares,134,21475.73
+marica,133,18020.17
+divinopolis,132,38370.43000000001
+jaboatao dos guararapes,131,25282.340000000004
+rio das ostras,130,22354.96
+sao jose dos pinhais,130,17521.99
+itu,129,14195.91
+pouso alegre,128,23967.97
+paulinia,127,18545.229999999996
+sete lagoas,126,20173.89
+sao joao de meriti,124,20782.719999999998
+cachoeiro de itapemirim,121,19171.42
+rio grande,121,19068.89
+novo hamburgo,120,20130.739999999998
+barra mansa,119,21511.39
+itajai,119,21456.930000000004
+teresopolis,119,20266.36
+santa barbara d'oeste,118,14980.130000000001
+pocos de caldas,116,18309.37
+resende,115,16300.279999999999
+cabo frio,113,18812.18
+passo fundo,112,18088.81
+anapolis,111,20029.830000000005
+gravatai,111,21131.640000000003
+ferraz de vasconcelos,109,17385.65
+franco da rocha,108,11830.23
+porto velho,108,26028.600000000002
+palmas,107,23705.75
+ribeirao pires,106,11725.66
+mage,106,16751.059999999998
+aparecida de goiania,105,16558.56
+belford roxo,104,14624.350000000002
+nilopolis,103,15462.98
+sao leopoldo,103,13185.7
+chapeco,101,17500.079999999998
+botucatu,100,18965.13
+patos de minas,99,19266.79
+ribeirao das neves,98,14772.339999999998
+cajamar,97,11413.590000000002
+balneario camboriu,97,18971.079999999998
+itatiba,97,13634.010000000004
+pindamonhangaba,97,14047.150000000001
+caieiras,97,14186.28
+guaratingueta,96,16593.199999999997
+santa luzia,96,13931.569999999998
+nova lima,96,23112.180000000004
+francisco morato,94,9688.8
+itapecerica da serra,93,9846.11
+araras,93,15010.42
+itajuba,92,15992.359999999999
+criciuma,91,16054.82
+vinhedo,90,10382.009999999998
+palhoca,90,12938.05
+olinda,89,15081.420000000002
+mogi-guacu,89,13123.029999999999
+vicosa,89,18388.28
+salto,89,11601.1
+vitoria da conquista,88,19252.209999999995
+varginha,88,16008.4
+jaragua do sul,88,15298.039999999997
+foz do iguacu,86,13806.35
+ananindeua,85,20777.66
+poa,85,10803.800000000001
+assis,84,13819.309999999998
+lages,84,13694.32
+jandira,84,9658.310000000001
+votorantim,84,12085.64
+angra dos reis,83,21421.329999999998
+caraguatatuba,83,13412.43
+lorena,82,9137.71
+conselheiro lafaiete,81,10690.31
+sao joao da boa vista,80,13428.770000000002
+lavras,80,14744.86
+cubatao,79,8171.42
+barbacena,79,14209.710000000001
+birigui,78,16626.83
+itapetininga,77,14048.450000000003
+itabira,77,12120.449999999997
+ourinhos,77,14316.78
+mesquita,76,11004.89
+sao roque,75,10721.19
+araxa,75,15041.84
+mogi mirim,75,9974.890000000001
+teofilo otoni,75,9586.630000000003
+mairipora,75,10345.67
+araruama,74,18836.769999999997
+itanhaem,74,11370.649999999998
+varzea paulista,74,12053.730000000001
+jau,73,10847.519999999999
+cacapava,72,11488.420000000002
+lauro de freitas,72,10885.470000000001
+catanduva,72,10922.029999999999
+rio branco,72,16965.57
+ubatuba,72,9536.949999999999
+tatui,72,12669.55
+cachoeirinha,72,10975.339999999998
+viamao,70,7968.719999999999
+toledo,70,11688.66
+ilheus,69,10500.099999999999
+pirassununga,69,9866.23
+barretos,69,10351.449999999999
+aruja,68,8699.660000000002
+campina grande,67,22657.35
+sao joao del rei,66,9744.43
+pinhais,66,10103.74
+guarapari,66,11951.82
+rio verde,64,11943.490000000002
+manhuacu,64,10066.6
+linhares,64,13987.35
+rondonopolis,64,12381.59
+avare,63,9713.470000000003
+amparo,63,12606.720000000001
+dourados,63,10515.659999999998
+muriae,63,12532.070000000002
+votuporanga,63,9740.189999999999
+colatina,63,8456.839999999998
+caruaru,63,12282.07
+santa cruz do sul,62,11974.650000000001
+bage,62,10272.970000000001
+guarapuava,62,9900.200000000003
+paracatu,62,10113.1
+valenca,62,12016.63
+petrolina,62,16253.019999999999
+caratinga,62,11211.449999999997
+sertaozinho,61,7829.73
+parnamirim,61,11206.99
+colombo,60,9014.88
+camacari,60,8722.580000000002
+jaguariuna,60,9595.58
+brusque,60,9714.82
+tubarao,60,12125.769999999999
+itabuna,60,9474.99
+lagoa santa,58,9681.009999999998
+paranagua,58,8778.47
+itapeva,57,7686.3099999999995
+sao sebastiao,57,11083.78
+alvorada,56,9323.060000000001
+itaborai,56,7783.17
+erechim,56,7689.0599999999995
+cruzeiro,56,7458.7699999999995
+itauna,56,9009.27
+campo mourao,56,8579.689999999999
+ouro preto,55,8149.910000000001
+unai,54,8064.509999999999
+araucaria,54,6255.87
+lins,54,10360.58
+jatai,54,11337.939999999999
+araguari,54,12048.939999999999
+macapa,53,13545.04
+queimados,53,7048.549999999999
+bento goncalves,53,8146.78
+pato branco,53,10599.58
+ituiutaba,53,6593.02
+uba,53,7734.0
+ijui,52,6870.16
+fernandopolis,52,8366.439999999999
+itapira,52,7984.619999999999
+tupa,52,7490.94
+timoteo,52,8938.859999999999
+lajeado,51,9615.48
+apucarana,51,8112.799999999999
+bebedouro,51,6140.510000000001
+matao,51,8360.85
+barreiras,51,12687.510000000002
+francisco beltrao,50,8378.119999999999
+cosmopolis,50,7645.2699999999995
+joao monlevade,50,8232.519999999999
+jaboticabal,50,6776.97
+leme,50,9157.009999999998
+nova serrana,49,8677.6
+barra do pirai,49,6015.990000000001
+uruguaiana,47,5460.41
+boituva,47,7974.490000000002
+sao mateus,47,7679.63
+concordia,47,6730.950000000001
+bertioga,47,10442.34
+campo limpo paulista,47,5581.77
+ibirite,47,8317.09
+embu-guacu,46,7062.82
+sao pedro da aldeia,46,5712.970000000001
+itaguai,46,7202.320000000001
+itaperuna,46,6658.0199999999995
+saquarema,45,5614.719999999999
+patrocinio,45,8023.549999999998
+paranavai,45,8254.93
+santo angelo,45,6448.63
+registro,45,6809.21
+videira,44,9246.03
+louveira,44,5596.559999999999
+itapema,44,7233.42
+ilhabela,44,3989.8799999999997
+sao jose do rio pardo,44,5971.05
+sao bento do sul,44,6105.45
+santarem,43,7125.51
+passos,43,5189.81
+vargem grande paulista,43,5368.16
+sinop,43,7696.819999999999
+alfenas,43,6539.45
+guaira,43,5402.83
+lencois paulista,43,7565.4800000000005
+peruibe,43,7697.98
+juazeiro,42,8643.380000000001
+extrema,42,6195.309999999999
+itupeva,42,6039.660000000001
+curvelo,42,6406.88
+pirapora,42,7842.16
+tres lagoas,42,8544.95
+paulista,42,7602.08
+sabara,42,5334.36
+ouro branco,41,5283.790000000001
+mongagua,41,6027.55
+vespasiano,41,6842.380000000001
+tres coracoes,41,5476.219999999999
+pedro leopoldo,40,5875.049999999999
+artur nogueira,40,6723.879999999999
+imperatriz,40,9144.779999999999
+boa vista,40,8867.830000000002
+coronel fabriciano,40,4906.87
+alagoinhas,40,7428.329999999998
+cacador,40,5469.62
+umuarama,40,6603.01
+aracruz,40,5102.9800000000005
+andradina,40,7087.49
+ponte nova,39,7814.780000000001
+esteio,39,6986.45
+sapucaia do sul,39,6392.7
+sao miguel do oeste,39,7165.3
+paulo afonso,39,7842.130000000002
+porto seguro,39,11671.599999999999
+cianorte,39,5691.549999999999
+araguaina,38,8946.120000000003
+capao da canoa,38,5629.08
+tremembe,38,5462.699999999999
+bom despacho,38,5554.599999999999
+tres rios,38,8014.460000000002
+monte mor,38,5039.0
+varzea grande,38,7710.3099999999995
+para de minas,37,7994.59
+nova odessa,37,5060.2699999999995
+valparaiso de goias,37,6424.51
+penapolis,37,5549.26
+guaxupe,37,6967.0
+vassouras,36,5309.87
+eunapolis,36,7715.63
+luis eduardo magalhaes,36,9538.69
+caldas novas,36,6204.57
+campo largo,36,4665.79
+pedreira,36,3391.290000000001
+guanambi,36,5367.469999999998
+olimpia,36,6365.15
+mossoro,35,6244.010000000001
+itumbiara,35,6489.090000000001
+tiete,35,4792.7300000000005
+almirante tamandare,35,5041.83
+paracambi,35,7516.229999999999
+campo bom,35,5137.099999999999
+osorio,35,7225.75
+sao sebastiao do paraiso,35,5509.709999999999
+santa rita do sapucai,35,4687.13
+caucaia,35,7092.719999999998
+adamantina,35,6108.5
+alegrete,35,5296.24
+rio do sul,35,5695.130000000001
+santa cruz do rio pardo,34,3126.2300000000005
+japeri,34,5682.8200000000015
+formosa,34,6124.119999999999
+jequie,34,5766.869999999999
+telemaco borba,34,5458.21
+santa fe do sul,34,4605.21
+sao joaquim da barra,34,4952.039999999999
+catalao,33,6317.630000000001
+seropedica,33,5256.35
+camaragibe,33,3455.49
+mococa,33,6758.87
+taquaritinga,33,5237.070000000001
+luziania,33,5608.510000000001
+mariana,33,5212.95
+sobral,33,12440.17
+arapongas,32,7152.4900000000025
+formiga,32,5033.34
+monte alto,32,2854.43
+sao lourenco,32,4958.96
+cataguases,32,5139.96
+capivari,32,5252.81
+montenegro,32,5632.51
+santa rosa,32,3601.11
+imbituba,31,3587.7400000000002
+ibiuna,31,4009.9300000000003
+juazeiro do norte,31,8138.34
+guaiba,31,6139.13
+promissao,31,4728.07
+maracanau,31,5915.23
+navegantes,31,7500.85
+tijucas,30,4144.17
+cruz alta,30,3471.2299999999996
+marechal candido rondon,30,4144.6900000000005
+cachoeira do sul,30,5281.79
+congonhas,30,3618.8300000000004
+santo antonio de padua,30,5765.600000000001
+garanhuns,30,5157.66
+fazenda rio grande,29,5204.960000000001
+uniao da vitoria,29,6037.75
+gramado,29,3750.71
+xanxere,29,4906.489999999999
+arapiraca,29,10150.03
+mirassol,29,6383.33
+santo antonio de jesus,29,5060.15
+cerquilho,29,3726.88
+gaspar,29,11602.95
+primavera do leste,28,7092.909999999999
+arraial do cabo,28,6329.660000000001
+alem paraiba,28,3548.32
+barra bonita,28,4440.920000000001
+capao bonito,28,3622.17
+armacao dos buzios,28,5579.360000000001
+itabirito,28,5798.0599999999995
+miguel pereira,28,4409.540000000001
+santa isabel,28,3176.1899999999996
+itarare,28,4520.99
+teixeira de freitas,28,4143.1
+itapolis,28,4017.5000000000005
+piumhii,28,4454.1100000000015
+trindade,28,8413.61
+orlandia,28,4552.400000000001
+ituverava,28,4325.59
+jales,28,3478.6300000000006
+parauapebas,27,5634.15
+farroupilha,27,3757.49
+dracena,27,5186.39
+dois vizinhos,27,2881.38
+canoinhas,27,5291.019999999999
+garca,27,3468.6899999999996
+batatais,27,6130.549999999999
+rio bonito,27,4946.289999999999
+caete,27,3153.05
+cambe,27,4559.0599999999995
+matinhos,27,3538.83
+camboriu,27,3711.42
+corumba,27,5627.08
+diamantina,27,2907.9299999999994
+santiago,26,2974.7
+venancio aires,26,3352.8399999999997
+viana,26,4782.409999999999
+joacaba,26,5233.090000000001
+brumadinho,26,2795.24
+indaial,26,4052.0600000000004
+porto ferreira,26,2127.08
+mafra,25,2327.3100000000004
+arcos,25,5989.36
+mineiros,25,4219.640000000001
+aparecida,25,4208.910000000001
+coromandel,25,2948.41
+nanuque,25,2920.75
+rio grande da serra,25,2577.74
+altamira,25,6399.84
+tramandai,25,3289.92
+carangola,25,4843.370000000001
+caceres,25,5668.5599999999995
+cachoeira paulista,25,3768.0099999999998
+barra do garcas,25,4924.3
+santa barbara,25,5295.3099999999995
+campos do jordao,25,3913.1200000000003
+rolandia,24,5701.330000000001
+cornelio procopio,24,2705.58
+ilha solteira,24,2694.73
+cordeiro,24,3098.43
+gurupi,24,6192.179999999999
+mairinque,24,3234.9999999999995
+aguas lindas de goias,24,2788.7999999999997
+frutal,24,3923.15
+cravinhos,24,2838.32
+monte carmelo,23,3403.67
+tangara da serra,23,4765.88
+sao fidelis,23,2597.42
+jacobina,23,7693.919999999998
+sao gabriel,23,2829.8199999999997
+dias d'avila,23,3044.9800000000005
+holambra,23,3102.0499999999997
+sapiranga,23,4014.9500000000003
+lucas do rio verde,23,6463.959999999999
+presidente epitacio,23,3014.1500000000005
+carazinho,23,2466.7400000000007
+maraba,22,4661.779999999999
+garopaba,22,3288.6299999999997
+aguas de lindoia,22,3758.3600000000006
+castro,22,4347.65
+sarandi,22,2296.15
+pitangui,22,3064.2
+marau,22,2631.9900000000002
+cambui,22,3660.8100000000004
+oliveira,22,3100.7200000000003
+biguacu,22,3738.89
+presidente venceslau,22,3410.889999999999
+santos dumont,22,2559.58
+ibitinga,22,3368.45
+irati,22,2994.1600000000003
+salinas,22,5691.160000000001
+piedade,22,2919.16
+parnaiba,22,5073.01
+januaria,22,4050.95
+simoes filho,21,5223.07
+porto feliz,21,3365.57
+juquitiba,21,3529.9900000000007
+vacaria,21,2735.96
+medianeira,21,3407.33
+rancharia,21,3006.8399999999997
+castanhal,21,4500.22
+piracaia,21,2866.91
+machado,21,3182.8
+pinhalzinho,21,2578.1600000000003
+guapimirim,21,3446.9899999999993
+aracati,21,3413.0000000000005
+cabo de santo agostinho,21,3618.25
+cantagalo,21,2758.09
+candeias,21,2402.21
+icara,21,2850.8999999999996
+brumado,21,3330.52
+campo belo,21,2218.31
+vera cruz,21,3212.0099999999998
+taquara,21,4954.910000000001
+pederneiras,21,3450.01
+paraguacu paulista,20,3063.9600000000005
+estancia velha,20,3563.8499999999995
+boa esperanca,20,4789.2300000000005
+curitibanos,20,3469.7999999999997
+cachoeiras de macacu,20,2304.32
+monte siao,20,2866.4399999999996
+santana do livramento,20,4911.3
+braco do norte,20,3423.42
+bom jesus do itabapoana,20,4011.27
+sao gotardo,20,3078.9200000000005
+sao manuel,20,3403.6000000000004
+claudio,20,3403.7999999999997
+timbo,20,4468.12
+santo antonio de posse,20,5393.22
+ibiruba,20,3695.7300000000005
+sorriso,20,4009.0299999999997
+casimiro de abreu,20,3963.309999999999
+nova venecia,19,2952.63
+paraty,19,3249.8599999999997
+socorro,19,2640.2200000000003
+jacutinga,19,3201.7400000000007
+tambau,19,1823.4900000000002
+iguaba grande,19,2829.65
+laranjeiras do sul,19,2413.23
+capelinha,19,2968.1200000000003
+nova granada,19,2122.45
+cafelandia,19,2757.71
+monte azul paulista,19,3287.1000000000004
+espera feliz,19,3751.4200000000005
+carlos barbosa,19,3015.42
+tres pontas,19,2587.99
+conchal,19,2464.88
+palmital,19,2323.78
+veranopolis,18,2878.0800000000004
+floriano,18,3145.5099999999998
+espirito santo do pinhal,18,2464.28
+santa rita do passa quatro,18,2479.14
+crato,18,3847.13
+pereira barreto,18,4460.09
+bambui,18,2558.6800000000003
+itapetinga,18,3169.4999999999995
+morrinhos,18,2929.5099999999998
+ipero,18,3079.7999999999997
+barao de cocais,18,2452.9399999999996
+iracemapolis,18,1532.5000000000002
+paragominas,18,2799.86
+cruz das almas,18,2486.5699999999997
+guararapes,18,1566.8999999999999
+sao borja,18,2616.89
+ponta pora,18,4652.16
+bonfim paulista,18,2850.1700000000005
+castelo,18,1990.94
+ararangua,18,2786.74
+guapore,18,3987.0599999999995
+sao francisco,18,2812.23
+mandaguari,18,5829.0599999999995
+barrinha,18,3321.1499999999996
+quatro barras,18,2079.83
+visconde do rio branco,18,1952.66
+guanhaes,18,2313.7500000000005
+sarzedo,18,1316.3300000000002
+senhor do bonfim,18,3047.42
+itatiaia,18,1882.2899999999997
+paraiba do sul,18,3452.08
+jarinu,18,1712.0600000000002
+viradouro,18,2480.95
+agua boa,18,3336.82
+cerqueira cesar,18,4059.120000000001
+bonito,17,3342.66
+ji-parana,17,4435.13
+alegre,17,3265.01
+jaguariaiva,17,2117.03
+bastos,17,1673.94
+dois irmaos,17,3847.42
+miracema,17,1891.44
+leopoldina,17,2038.21
+juina,17,5417.13
+bom jesus dos perdoes,17,1920.7700000000002
+pompeia,17,2252.95
+piraju,17,5054.7699999999995
+uruacu,17,2307.27
+santo antonio da patrulha,17,5603.12
+torres,17,1833.3199999999997
+canela,17,2798.26
+picos,17,4255.89
+anchieta,17,2745.3799999999997
+laranjal paulista,17,2583.8200000000006
+balsas,17,6607.739999999999
+salgueiro,17,3044.75
+igrejinha,17,1581.6399999999999
+panambi,17,4059.1499999999996
+santo anastacio,17,2240.3299999999995
+ipora,17,2616.8000000000006
+charqueadas,17,2125.0199999999995
+piuma,17,2590.1700000000005
+goianesia,17,2516.58
+novo horizonte,17,3078.8100000000004
+americo brasiliense,17,2688.8900000000003
+santa vitoria,17,4546.18
+inhumas,16,2733.51
+cajati,16,2100.6899999999996
+candido mota,16,1824.1
+palmeira das missoes,16,1943.52
+ouro fino,16,2978.23
+natividade,16,3517.2200000000003
+itaocara,16,2042.5000000000002
+santana do paraiso,16,3077.73
+marataizes,16,3274.31
+marialva,16,3115.02
+senador canedo,16,1790.2900000000002
+osvaldo cruz,16,2124.3599999999997
+nova prata,16,1541.25
+manhumirim,16,2817.5299999999997
+pirapora do bom jesus,16,3067.5399999999995
+janauba,16,3646.2199999999993
+agudos,16,1508.9499999999998
+bom jardim,16,2862.49
+vilhena,16,2791.92
+caxias,16,2604.1499999999996
+caxambu,16,2161.84
+joao pinheiro,16,2814.0299999999997
+carmo do paranaiba,16,4652.95
+sao francisco do sul,16,1890.4999999999998
+redencao,16,3116.14
+pitangueiras,16,1634.64
+jacarezinho,16,1617.17
+tucurui,16,5756.65
+guacui,16,4311.75
+patos,16,4795.28
+ituporanga,15,3580.25
+pirai,15,2544.07
+bombinhas,15,2305.3
+sao mateus do sul,15,2284.52
+estrela,15,2460.4200000000005
+posse,15,3940.71
+eldorado do sul,15,2127.04
+sao luiz gonzaga,15,4008.72
+sao joao da barra,15,2548.11
+junqueiropolis,15,2491.4199999999996
+sao francisco de itabapoana,15,1816.4099999999999
+penha,15,2379.71
+barra velha,15,2014.4099999999999
+buritis,15,2381.0299999999997
+rio negro,15,2465.8699999999994
+nova era,15,2565.16
+pariquera-acu,15,2065.21
+conselheiro pena,15,2393.18
+cordeiropolis,15,1597.09
+bariri,15,3075.2200000000003
+itabaiana,15,3840.41
+campo novo do parecis,15,5838.679999999999
+santa adelia,15,1861.06
+taquarituba,15,2799.3500000000004
+ipojuca,15,1825.5600000000002
+iguatu,15,4355.54
+santa maria de jetiba,15,2231.0699999999997
+santa ines,15,2308.68
+palmeira,15,2994.12
+vitoria de santo antao,15,2988.4700000000003
+venda nova do imigrante,15,3171.2200000000007
+quirinopolis,14,1789.8000000000002
+taio,14,4792.66
+presidente dutra,14,2792.98
+bandeirantes,14,2113.6299999999997
+frederico westphalen,14,1319.8899999999999
+sao joao nepomuceno,14,3088.1299999999987
+iguape,14,1615.2
+campos novos,14,2438.38
+teutonia,14,1826.22
+sao lourenco do sul,14,2453.15
+paraisopolis,14,2376.1600000000003
+laguna,14,2696.2299999999996
+lagoa vermelha,14,1883.04
+feliz,14,2947.85
+lapa,14,2488.5400000000004
+esmeraldas,14,2043.24
+chapadao do sul,14,1913.4099999999999
+triunfo,14,2675.96
+iturama,14,1931.5099999999998
+itaporanga,14,2971.05
+marituba,14,1663.07
+pinheiral,14,2529.38
+almenara,14,3212.33
+pirapozinho,14,1582.47
+mirassol d'oeste,14,2207.2300000000005
+guariba,14,1810.7199999999998
+santo antonio do monte,14,2247.3100000000004
+porto uniao,14,3329.4300000000003
+petrolandia,14,2587.77
+serrinha,14,2314.1099999999997
+miguelopolis,14,2265.4999999999995
+paranaiba,14,1701.31
+rosario do sul,14,1292.52
+cunha,14,3118.0000000000005
+nossa senhora do socorro,14,2809.5599999999995
+piraquara,14,1947.24
+niquelandia,13,1896.5800000000002
+ibirama,13,1429.1999999999998
+itapecerica,13,1603.6800000000003
+itanhandu,13,2113.8799999999997
+tupaciguara,13,1645.3600000000001
+jardinopolis,13,1851.4799999999996
+parati,13,3088.5899999999997
+santa rosa de viterbo,13,1975.27
+teodoro sampaio,13,1561.1899999999998
+irece,13,2660.91
+aluminio,13,1500.6399999999999
+imbe,13,3105.6699999999996
+bom jesus,13,3082.2700000000004
+santa maria da vitoria,13,2185.07
+cesario lange,13,2209.06
+quixada,13,3350.46
+sao miguel arcanjo,13,1543.78
+loanda,13,2042.79
+novo gama,13,2001.41
+santana,13,1941.31
+sao jose de ribamar,13,1764.0600000000002
+eusebio,13,2707.5599999999995
+casa branca,13,1492.8799999999999
+paty do alferes,13,2597.71
+serra negra,13,3522.56
+ariquemes,13,4969.639999999999
+fraiburgo,13,2338.5400000000004
+porangatu,13,2162.7400000000002
+pojuca,13,1820.7800000000002
+ivoti,13,1507.43
+sao gabriel da palha,13,1732.64
+forquilhinha,13,1468.18
+barra de sao joao,13,2835.38
+sacramento,13,2358.5400000000004
+mirandopolis,13,1535.41
+rio negrinho,13,1381.73
+descalvado,13,1439.5700000000002
+guaramirim,13,1736.26
+divino,13,1466.16
+matias barbosa,13,2489.66
+serrana,13,1115.27
+taiobeiras,13,3103.7999999999997
+bocaiuva,13,1943.22
+tres marias,13,1095.8999999999999
+maracaju,13,3511.21
+sao simao,13,1734.25
+jaguare,13,1513.1
+sao lourenco da serra,12,1357.03
+sao sebastiao do cai,12,2048.86
+chavantes,12,1154.1399999999999
+conceicao do mato dentro,12,1606.3399999999997
+raul soares,12,1357.7699999999998
+engenheiro coelho,12,1186.47
+goiana,12,991.2099999999999
+mangaratiba,12,1224.4199999999998
+tres de maio,12,2334.85
+pires do rio,12,3930.0299999999993
+sao joao,12,1539.13
+macatuba,12,3452.4500000000003
+jose bonifacio,12,1666.9299999999998
+italva,12,1480.6100000000001
+tapiratiba,12,2835.2799999999997
+sao pedro,12,3903.3300000000004
+sao jose do vale do rio preto,12,1527.66
+ipameri,12,2399.960000000001
+quata,12,3417.29
+santa helena,12,1695.8899999999999
+camaqua,12,1998.21
+salto de pirapora,12,1153.56
+costa rica,12,1273.9
+santa vitoria do palmar,12,2049.67
+assis chateaubriand,12,1426.2999999999997
+flores da cunha,12,1732.57
+alta floresta,12,3951.08
+conceicao de macabu,12,1970.2400000000002
+pirajui,12,1789.3200000000002
+sao goncalo do amarante,12,1705.2200000000003
+brotas,12,1269.8799999999999
+carmo,12,1742.8600000000001
+pilar do sul,12,1225.3199999999997
+matozinhos,12,944.16
+vargem grande do sul,12,990.68
+santo antonio da platina,12,1544.84
+andradas,12,4595.969999999999
+ibate,12,1767.2900000000002
+ibipora,12,1590.84
+aperibe,12,1835.9099999999999
+paraguacu,12,1826.29
+lucelia,12,1147.89
+cangucu,12,1545.69
+cacoal,12,2414.8
+pontal,12,1333.0499999999997
+tabapua,12,1535.21
+capanema,12,1504.71
+parobe,12,1985.0700000000002
+mendes,12,1509.9899999999998
+santo amaro da imperatriz,11,3245.7
+araripina,11,1538.0499999999997
+itamaraju,11,1681.1999999999998
+taquari,11,1870.8600000000001
+cajazeiras,11,2410.67
+correia pinto,11,1680.18
+sao joao batista,11,2225.0
+alvinopolis,11,1020.96
+santa cruz do capibaribe,11,2777.520000000001
+bacabal,11,3883.5000000000005
+coxim,11,1854.6200000000001
+tapejara,11,1757.7300000000002
+santa gertrudes,11,1471.05
+ouroeste,11,1437.5699999999997
+tanabi,11,1658.14
+prata,11,1346.0900000000001
+quissama,11,1879.68
+sao lourenco da mata,11,1584.41
+belo jardim,11,2013.15
+aracoiaba da serra,11,1701.76
+floresta,11,1538.7800000000002
+encantado,11,3196.4500000000003
+coronel vivida,11,1058.5900000000001
+nova andradina,11,2527.5499999999997
+canarana,11,1486.8999999999999
+corinto,11,1545.63
+paranapanema,11,759.71
+andira,11,1688.59
+capinopolis,11,1277.9500000000003
+ibaiti,11,1264.14
+itapiranga,11,2921.8900000000003
+mata de sao joao,11,1344.1799999999998
+minacu,11,1787.83
+guararema,11,1370.41
+carandai,11,1386.44
+jequitinhonha,11,1595.86
+pompeu,11,1321.6699999999998
+timon,11,1415.47
+astolfo dutra,11,1509.6899999999996
+igarassu,11,2264.63
+mostardas,11,1720.33
+rio brilhante,11,1195.16
+tres passos,11,1503.72
+maravilha,11,984.1400000000001
+sidrolandia,11,1842.5299999999997
+treze tilias,11,1159.3600000000001
+barroso,11,1575.5199999999998
+goitacazes,11,1388.2399999999998
+dois corregos,11,1402.5899999999997
+goioere,11,2191.01
+varzea da palma,11,2440.97
+mantena,11,1946.55
+afonso claudio,11,1767.92
+araquari,11,1285.36
+raposos,11,1297.31
+embu,11,1719.6600000000003
+limoeiro do norte,11,1492.55
+lagarto,11,2362.35
+faxinal dos guedes,11,1948.77
+abaete,11,1792.58
+abaetetuba,11,4672.27
+abreu e lima,11,2871.92
+boa esperanca do sul,11,1012.6200000000001
+bezerros,10,1651.2300000000002
+biritiba-mirim,10,1579.77
+xaxim,10,1928.25
+fartura,10,2106.41
+eloi mendes,10,2077.95
+lagoa da prata,10,1884.08
+charqueada,10,1290.8799999999999
+escada,10,3556.7
+aimores,10,1143.77
+duartina,10,1453.3
+carpina,10,2600.23
+planaltina,10,949.3399999999999
+regente feijo,10,1088.31
+resplendor,10,944.6000000000001
+piracanjuba,10,2211.4
+castilho,10,3043.5999999999995
+carmo do cajuru,10,1932.42
+goiatuba,10,2648.12
+brejo santo,10,1949.35
+gravata,10,2243.9600000000005
+montanha,10,1862.77
+monte aprazivel,10,1186.5
+serra talhada,10,2625.9500000000003
+rio das pedras,10,1205.56
+guarabira,10,1642.8600000000001
+buri,10,1103.39
+antonina,10,2285.4
+dom pedrito,10,1708.0899999999997
+girua,10,1560.97
+urupes,10,1313.27
+urussanga,10,1083.08
+salesopolis,10,1310.9599999999998
+capinzal,10,1469.2299999999998
+morada nova,10,1668.9200000000003
+itamonte,10,1105.0599999999997
+caconde,10,1829.57
+caetite,10,2300.4500000000003
+taua,10,1251.37
+itapipoca,10,1482.9099999999999
+auriflama,10,2029.7699999999998
+santo amaro,10,2066.74
+taguai,10,873.56
+aguas da prata,10,1257.5700000000002
+julio de castilhos,10,983.0400000000001
+catu,10,1763.24
+itai,10,1972.66
+itajobi,10,1915.71
+sombrio,10,1437.1200000000001
+paraibuna,10,1810.75
+caico,10,3215.3099999999995
+paraiso do tocantins,10,2238.8599999999997
+sumidouro,10,1325.97
+santa teresa,10,1313.6499999999996
+palotina,10,1065.7699999999998
+papucaia,10,1435.7
+campo verde,10,1029.69
+nova xavantina,10,3602.16
+campina verde,10,868.85
+campo formoso,10,4054.3399999999992
+paicandu,10,1106.22
+palestina,10,634.57
+pradopolis,10,1081.3100000000002
+querencia,10,2701.9500000000003
+portao,10,959.46
+bom jesus da lapa,9,3153.69
+garibaldi,9,1216.25
+pomerode,9,1797.5500000000004
+valente,9,3614.1000000000004
+pontes e lacerda,9,1972.9
+sao lourenco do oeste,9,997.1300000000001
+aracuai,9,1588.7800000000002
+colina,9,762.25
+sao miguel do iguacu,9,1244.1399999999999
+cicero dantas,9,4097.2
+sao marcos,9,994.7600000000001
+juquia,9,880.09
+sao joaquim,9,1310.3899999999999
+colorado,9,1405.65
+planalto,9,976.3500000000001
+mar de espanha,9,1191.57
+arapoti,9,1280.91
+carmo do rio claro,9,1969.5299999999997
+piranguinho,9,1689.85
+conceicao do coite,9,1307.04
+cedral,9,1956.8700000000001
+dourado,9,1316.9299999999998
+turmalina,9,1360.5700000000002
+brasilia de minas,9,922.9199999999998
+braganca,9,1437.27
+domingos martins,9,1353.63
+alto paraiso de goias,9,1963.3100000000002
+canaa dos carajas,9,1991.3600000000001
+nepomuceno,9,810.68
+siqueira campos,9,1663.62
+monte santo de minas,9,1017.9999999999999
+arroio do meio,9,1608.0799999999997
+arroio dos ratos,9,1226.52
+muzambinho,9,840.63
+rio paranaiba,9,881.48
+morro agudo,9,1967.96
+coroata,9,1328.47
+itaguacu,9,2087.09
+itaberaba,9,1169.15
+russas,9,4622.339999999999
+novo cruzeiro,9,968.8699999999999
+rondon do para,9,3484.3900000000003
+passa quatro,9,1906.52
+pau dos ferros,9,3176.81
+itapoa,9,1087.75
+mimoso do sul,9,853.56
+guara,9,1195.03
+rolante,9,1078.45
+guaranesia,9,972.8299999999999
+penedo,9,1697.9500000000003
+buritama,9,1234.42
+pesqueira,9,1030.03
+perdoes,9,752.0100000000001
+itaqui,9,1522.32
+sobradinho,9,1302.79
+serafina correa,9,1042.3799999999999
+schroeder,9,1349.2200000000003
+pinheiros,9,1396.3400000000001
+brodowski,9,1123.4
+piquete,9,934.5500000000002
+pinhao,9,1570.9900000000002
+campina grande do sul,9,1276.75
+santa helena de goias,9,1733.68
+santa branca,9,953.35
+guaratuba,9,2017.31
+camanducaia,9,2381.7599999999998
+queimadas,9,2608.51
+cambara,9,1022.62
+crateus,9,2779.4
+xinguara,9,1608.5099999999998
+faxinal,9,995.73
+porto belo,9,1079.32
+lindoia,9,751.34
+porecatu,9,930.7100000000002
+primavera,9,1166.01
+estancia,9,3157.9500000000003
+aguai,9,2370.7999999999997
+icem,9,1043.64
+nova londrina,9,946.56
+igarape,9,2016.35
+taruma,9,1189.95
+paraopeba,9,1066.7400000000002
+tiangua,9,2732.68
+santa cruz das palmeiras,9,736.51
+cajuru,9,786.74
+herval d'oeste,9,1386.9299999999998
+ibatiba,9,1724.6
+barra de sao francisco,9,797.29
+nova ponte,9,1638.5400000000002
+sao felix do xingu,8,1774.08
+maracai,8,1345.61
+marilandia,8,1593.22
+sao goncalo do sapucai,8,1342.3400000000001
+encruzilhada do sul,8,1142.59
+pontal do parana,8,1235.0500000000002
+ribeira do pombal,8,782.3599999999999
+martinopolis,8,4084.1099999999997
+jacare,8,952.5799999999999
+jandaia do sul,8,2156.7499999999995
+mambore,8,928.47
+mangueirinha,8,1733.0499999999997
+sapezal,8,1139.52
+dores de campos,8,1464.1899999999998
+sao joaquim de bicas,8,1965.5099999999998
+goianira,8,1057.77
+borborema,8,936.8
+poco fundo,8,1244.8799999999999
+botelhos,8,1456.47
+jaguarao,8,1242.01
+sao jose da lapa,8,1237.52
+getulio vargas,8,919.94
+ecoporanga,8,1145.83
+valparaiso,8,658.49
+potirendaba,8,842.84
+afogados da ingazeira,8,1596.39
+bom jardim de minas,8,1068.38
+porto nacional,8,1911.38
+cidade ocidental,8,876.57
+macaubas,8,1200.4499999999998
+porciuncula,8,1112.1299999999999
+aracariguama,8,751.6099999999999
+lauro muller,8,1595.6
+joao neiva,8,911.3999999999999
+colider,8,2943.95
+guaicara,8,917.5600000000001
+cananeia,8,838.8900000000001
+nova europa,8,760.89
+soledade,8,1240.41
+nova esperanca,8,1760.46
+itaiopolis,8,1555.4199999999998
+trajano de moraes,8,913.0400000000001
+navirai,8,2313.2400000000002
+pedro de toledo,8,893.26
+itamarandiba,8,2036.27
+ampere,8,1788.04
+santo augusto,8,1319.28
+angatuba,8,983.0300000000001
+mutum,8,1589.8700000000001
+coribe,8,816.78
+anicuns,8,809.19
+simonesia,8,1549.8700000000001
+mateus leme,8,654.1000000000001
+conchas,8,1229.2199999999998
+aripuana,8,1348.38
+arinos,8,959.8199999999999
+tucano,8,969.58
+goias,8,1236.73
+piratininga,8,1716.0500000000002
+rio acima,8,709.23
+perdizes,8,1382.4999999999998
+buritizeiro,8,2911.23
+mirai,8,1132.43
+nova petropolis,8,600.0600000000001
+ico,8,2355.3500000000004
+caetanopolis,8,805.62
+ibia,8,1736.18
+cacu,8,1163.53
+ortigueira,8,1139.45
+orleans,8,1617.67
+baixo guandu,8,1617.1699999999998
+baependi,8,1587.39
+alvares machado,8,4227.42
+ipaba,8,1585.2600000000002
+camamu,8,1782.6
+papanduva,8,876.6500000000001
+cajobi,8,1162.89
+palmeira dos indios,8,1463.46
+alto do rodrigues,8,3346.7000000000003
+hidrolandia,8,1326.25
+ipira,8,3618.72
+parapua,8,1345.8300000000002
+santa juliana,8,1880.37
+balneario picarras,8,1619.82
+fervedouro,8,1128.6100000000001
+cristalina,8,2275.49
+palmares,8,1487.0300000000002
+camocim,8,2078.27
+cambuci,8,2279.92
+imbituva,8,913.6600000000001
+nucleo residencial pilar,8,2417.3500000000004
+crixas,8,1129.4399999999998
+ouricuri,8,2730.73
+quedas do iguacu,8,1030.44
+lagoa grande,8,3352.96
+chapadao do ceu,8,1343.25
+acarau,8,1639.94
+lambari,8,1692.9099999999999
+xangri-la,8,1192.8700000000001
+vila valerio,8,1632.29
+acopiara,7,901.6700000000001
+virginopolis,7,737.12
+ervalia,7,1230.4500000000003
+entre rios de minas,7,1709.62
+acailandia,7,1233.48
+lagoa formosa,7,921.92
+bocaina,7,1719.2400000000002
+prudentopolis,7,1085.1699999999998
+primeiro de maio,7,1407.61
+estiva gerbi,7,1090.98
+espumoso,7,1480.46
+bilac,7,817.8599999999999
+bicas,7,868.5500000000001
+firminopolis,7,832.5000000000001
+vila muriqui,7,856.4499999999999
+campanha,7,786.27
+paco do lumiar,7,1005.9300000000001
+inhapim,7,565.35
+inhambupe,7,1346.98
+cruzeiro do oeste,7,982.5000000000001
+cruz,7,1772.5500000000002
+cristina,7,1168.74
+campo ere,7,697.99
+balneario pinhal,7,1043.94
+campinorte,7,1400.6100000000001
+taguatinga,7,1028.89
+santa albertina,7,830.42
+terra rica,7,769.6300000000001
+teotonio vilela,7,2331.9
+igarapava,7,897.02
+nova veneza,7,889.9000000000001
+campos belos,7,927.5300000000001
+campo maior,7,1314.71
+nova russas,7,1842.03
+itabera,7,1522.98
+ipiau,7,883.79
+ipaussu,7,1409.26
+ipanema,7,3916.27
+avanhandava,7,905.33
+santa rita do araguaia,7,972.03
+santa rita,7,1776.8099999999997
+santa maria madalena,7,1247.4499999999998
+ibotirama,7,3233.2
+currais novos,7,1720.3400000000001
+horizontina,7,735.55
+diamantino,7,527.4200000000001
+barra da estiva,7,1072.6799999999998
+ruy barbosa,7,921.15
+neropolis,7,1464.02
+cansancao,7,998.37
+nazare paulista,7,934.33
+astorga,7,556.28
+sousa,7,1356.43
+itacare,7,970.1999999999999
+rubiataba,7,1210.69
+rolim de moura,7,748.15
+passo de torres,7,731.2600000000001
+tres cachoeiras,7,831.4200000000001
+alpinopolis,7,969.4499999999999
+tocantinopolis,7,947.28
+timbauba,7,804.4499999999999
+rodeio,7,985.9499999999999
+nao-me-toque,7,1062.1
+mucuri,7,2385.9900000000002
+mozarlandia,7,1008.0399999999997
+morungaba,7,708.3199999999999
+morro do chapeu,7,737.8399999999999
+morro da fumaca,7,1921.4499999999998
+itambe,7,1108.34
+nhandeara,7,698.47
+sao cristovao,7,900.4300000000001
+sao bento do sapucai,7,788.06
+santo cristo,7,766.1800000000001
+missal,7,2838.99
+arroio do sal,7,1330.31
+santo antonio do jacinto,7,573.48
+simao dias,7,1082.9099999999999
+barra do corda,7,1354.33
+piedade de caratinga,7,799.83
+guarani,7,2634.31
+divinolandia,7,1482.9
+dianopolis,7,1165.4099999999999
+medeiros neto,7,797.2900000000001
+matupa,7,1087.8700000000001
+itobi,7,591.42
+confresa,7,1371.6200000000001
+itapui,7,1430.89
+arraial d'ajuda,7,739.0799999999998
+ribeirao bonito,7,846.12
+pinhalao,7,2032.35
+pimenta bueno,7,1622.27
+alfredo chaves,7,1052.6100000000001
+piripiri,7,828.5600000000001
+pirapetinga,7,640.3900000000001
+pirangi,7,1189.13
+sao domingos do norte,7,1028.5
+sao domingos,7,668.69
+casca,7,1628.9399999999998
+marmeleiro,7,862.9799999999999
+arceburgo,7,1160.83
+sao gabriel do oeste,7,695.94
+conceicao do araguaia,7,1494.6
+ivaipora,7,640.8600000000001
+silvania,7,1373.15
+jaragua,7,755.07
+catende,7,1941.6799999999998
+sao raimundo nonato,7,2987.04
+apiuna,7,1484.8
+comodoro,7,2504.2799999999997
+comendador levy gasparian,7,746.5600000000001
+sao francisco de paula,7,738.0999999999999
+bela vista de goias,7,753.3499999999999
+bayeux,7,1139.41
+ubirata,7,751.43
+dores do indaia,7,928.86
+sao joao dos patos,7,1615.47
+ceres,7,2116.38
+luis antonio,7,1131.43
+sao jeronimo,7,729.3399999999999
+areal,7,1364.63
+malacacheta,7,1702.2100000000005
+madre de deus,7,826.7400000000001
+codo,7,2943.12
+cocal,7,1151.9099999999999
+limoeiro,7,701.2099999999999
+ceu azul,7,525.29
+cerro largo,7,907.8100000000001
+aparecida do taboado,7,2768.59
+sao luis de montes belos,7,1412.96
+sao jose do norte,7,701.78
+potiragua,7,644.7
+porto real,7,1645.92
+bom conselho,7,1848.3200000000002
+acreuna,7,1306.4499999999998
+borda da mata,6,1062.25
+tapes,6,934.2599999999999
+teixeiras,6,607.65
+taquaritinga do norte,6,2371.18
+amambai,6,890.69
+aguas belas,6,1041.4
+martins soares,6,613.9000000000001
+mata verde,6,1667.5099999999998
+carmo da mata,6,578.61
+santo amaro de campos,6,1777.56
+vazante,6,1780.3
+ibira,6,830.1500000000001
+camapua,6,734.3399999999999
+tangua,6,636.04
+cachoeira de minas,6,557.9100000000001
+cachoeira alta,6,605.48
+california da barra,6,1014.5
+irapuru,6,985.29
+cosmorama,6,1091.55
+ipora do oeste,6,615.23
+rio das flores,6,665.6899999999999
+rio branco do sul,6,526.72
+monte alegre do sul,6,4360.379999999999
+carai,6,626.69
+cassia,6,364.40999999999997
+casa nova,6,1269.54
+sao goncalo do rio abaixo,6,1013.4300000000001
+fernando prestes,6,696.58
+regeneracao,6,1041.64
+iacanga,6,427.95
+perdigao,6,383.08000000000004
+rio largo,6,693.04
+rio pomba,6,1464.8600000000001
+paraiso,6,948.39
+itaberai,6,1151.08
+itaipulandia,6,294.6
+camacan,6,1269.4
+tocantins,6,778.4899999999999
+areado,6,1360.55
+catole do rocha,6,4066.6900000000005
+catigua,6,788.5200000000001
+mamanguape,6,1406.4700000000003
+mallet,6,907.6300000000001
+catanduvas,6,834.99
+sao joao evangelista,6,1174.9
+bady bassitt,6,615.2400000000001
+presidente getulio,6,846.1299999999999
+trancoso,6,995.1899999999999
+itambacuri,6,727.8899999999999
+itapejara d'oeste,6,1255.92
+itapaje,6,3425.0800000000004
+itaobim,6,1026.5600000000002
+rio novo do sul,6,651.89
+torrinha,6,519.4200000000001
+sao joao do paraiso,6,754.0000000000001
+santa rita de caldas,6,882.2199999999999
+sao jose da barra,6,1158.11
+mundo novo,6,1243.1899999999998
+presidente olegario,6,557.41
+brazopolis,6,1015.5
+butia,6,1277.92
+reboucas,6,493.38000000000005
+cabedelo,6,1329.5
+itariri,6,1378.73
+conquista,6,602.42
+campinas do sul,6,1531.24
+fronteira,6,1079.5300000000002
+alcinopolis,6,952.35
+sao jose do calcado,6,1127.26
+lima duarte,6,920.8599999999999
+santa isabel do para,6,919.57
+balsamo,6,1383.48
+orizona,6,657.08
+pacajus,6,1520.0
+pacaja,6,2860.96
+pacaembu,6,1595.0700000000002
+tres coroas,6,910.48
+cabrobo,6,1146.91
+cabreuva,6,834.12
+jacunda,6,1844.8200000000002
+itapuranga,6,959.31
+itapura,6,426.6
+ronda alta,6,1914.3099999999997
+eldorado,6,666.3500000000001
+lajedo,6,1137.2
+canavieiras,6,1017.29
+canapolis,6,635.1200000000001
+general salgado,6,587.2800000000001
+guapo,6,868.7
+guapiacu,6,995.55
+tupi paulista,6,577.2
+quixeramobim,6,1119.97
+barcarena,6,1323.6699999999998
+sales oliveira,6,627.74
+jaiba,6,799.04
+gravatal,6,1418.28
+jeceaba,6,683.51
+seabra,6,1148.26
+oeiras,6,803.9100000000001
+ubaira,6,884.91
+pirai do sul,6,740.98
+barbalha,6,1515.41
+apiai,6,714.94
+apiaca,6,534.4200000000001
+juruaia,6,470.59
+santa cruz,6,1097.16
+turvo,6,401.21
+benedito novo,6,1093.77
+joanopolis,6,904.51
+jeremoabo,6,1126.37
+nova santa rita,6,1102.82
+nova prata do iguacu,6,1185.19
+nova trento,6,972.21
+realeza,6,1412.76
+uruara,6,1199.1299999999999
+campos de julio,6,1110.35
+sananduva,6,585.5700000000002
+sao sepe,6,695.71
+jaru,6,910.26
+esperanca,6,2108.09
+entre rios,6,1241.52
+engenheiro paulo de frontin,6,590.8899999999999
+carlopolis,6,901.18
+abelardo luz,6,797.5799999999999
+cruzeiro do sul,6,3510.34
+bom principio,6,1140.75
+pombal,6,2210.2
+cardoso,6,1095.32
+medina,6,694.4
+cardoso moreira,6,616.88
+espigao do oeste,6,951.17
+espinosa,6,2947.4400000000005
+esplanada,5,1808.3400000000001
+mendes pimentel,5,477.73
+mendonca,5,468.43000000000006
+santo estevao,5,1226.69
+sao benedito,5,1126.52
+sao bento,5,1381.2400000000002
+bom sucesso,5,1102.48
+bonfim,5,480.24
+aurora,5,870.1700000000001
+pedra preta,5,754.25
+pedra azul,5,543.8000000000001
+assai,5,1019.8
+miracatu,5,991.81
+miguel calmon,5,787.81
+adolfo,5,441.59000000000003
+euclides da cunha,5,625.62
+eugenopolis,5,1071.3899999999999
+esperantina,5,692.0400000000001
+estacao,5,815.22
+pinheiro machado,5,713.31
+general carneiro,5,498.52000000000004
+jardim,5,808.4100000000001
+sao sebastiao do passe,5,550.53
+sao tiago,5,586.45
+saltinho,5,1316.35
+jordania,5,1047.1999999999998
+joviania,5,472.11
+juara,5,502.95
+joao lisboa,5,810.71
+sao romao,5,524.0600000000001
+sao roque do canaa,5,436.01000000000005
+quatro bocas,5,1804.79
+guabiruba,5,786.8100000000001
+ocaucu,5,320.77
+japuiba,5,1230.85
+japura,5,521.54
+jesuania,5,461.09000000000003
+belo oriente,5,833.02
+garuva,5,1647.66
+bituruna,5,598.23
+santa cecilia,5,746.21
+santa cruz cabralia,5,605.1799999999998
+cidade gaucha,5,950.0999999999999
+cidreira,5,769.02
+lago da pedra,5,1038.9599999999998
+lagoa da confusao,5,929.74
+lagoa dourada,5,707.3
+nova mutum,5,715.67
+grajau,5,965.51
+sabinopolis,5,412.4
+sales,5,433.12
+colombia,5,457.24
+colonia vitoria,5,406.44000000000005
+jauru,5,762.86
+sapucaia,5,777.07
+antonio prado,5,667.5699999999999
+campos altos,5,498.61
+novo progresso,5,2436.08
+dom eliseu,5,515.0799999999999
+dom feliciano,5,635.9499999999999
+granja,5,700.3
+tres fronteiras,5,425.25000000000006
+barra do ribeiro,5,742.89
+seara,5,694.82
+orindiuva,5,629.59
+rafard,5,659.46
+divinolandia de minas,5,312.82
+barreiros,5,1514.09
+caninde,5,707.39
+bananeiras,5,544.74
+urbano santos,5,703.99
+chui,5,908.1599999999999
+sao miguel do araguaia,5,1518.03
+sao miguel do guama,5,1514.4
+nova fatima,5,515.0799999999999
+santa cruz de minas,5,710.39
+laurentino,5,863.27
+aracoiaba,5,713.1500000000001
+elias fausto,5,481.48
+roque gonzales,5,643.61
+roseira,5,490.14000000000004
+jacupiranga,5,885.5699999999999
+jaguaribe,5,861.8000000000002
+senges,5,645.5
+alexania,5,568.25
+guaranta,5,715.01
+guaranta do norte,5,509.29
+guarei,5,1187.44
+alto araguaia,5,1228.1299999999999
+tres barras,5,380.56
+horizonte,5,639.41
+otacilio costa,5,1162.85
+severinia,5,556.45
+conceicao do rio verde,5,970.1500000000001
+serra dos aimores,5,443.08
+ourilandia do norte,5,1934.3500000000001
+itau de minas,5,460.03
+itauba,5,1661.97
+conceicao da aparecida,5,1063.6499999999999
+conceicao do castelo,5,658.0
+piratuba,5,1095.8799999999999
+arapora,5,1253.37
+sao jose do ouro,5,507.09
+sao jose do cedro,5,598.7700000000001
+araguatins,5,859.9
+santa fe,5,1005.44
+piritiba,5,512.1899999999999
+vargem alta,5,372.35
+vargem bonita,5,826.27
+frei inocencio,5,733.8900000000001
+diamante do norte,5,515.2700000000001
+guaracai,5,767.11
+palmitinho,5,359.99
+palmitos,5,760.98
+pacatuba,5,4469.860000000001
+cambuquira,5,444.24
+anita garibaldi,5,385.93
+andorinha,5,797.61
+pedro canario,5,476.55
+guaraniacu,5,463.62
+livramento de nossa senhora,5,777.5699999999999
+macaiba,5,757.17
+macau,5,1297.69
+santa quiteria,5,1139.12
+sao joao do piaui,5,1891.8799999999999
+araruna,5,714.9200000000001
+bofete,5,758.6699999999998
+presidente bernardes,5,579.56
+quatigua,5,341.35
+quatis,5,617.8700000000001
+holambra ii,5,1012.82
+rio manso,5,939.6800000000001
+rio pardo,5,791.4499999999999
+rio pardo de minas,5,708.49
+sud mennucci,5,448.01
+itapagipe,5,341.5
+sirinhaem,5,720.23
+palmares do sul,5,518.4
+palmeira d'oeste,5,396.91
+maragogi,5,2135.53
+bananal,5,702.49
+moreno,5,960.0899999999999
+castelandia,5,688.41
+catas altas,5,1160.35
+araujos,5,2711.2200000000003
+arcoverde,5,677.4
+riachao do jacuipe,5,2613.59
+surubim,5,711.22
+paraipaba,5,706.54
+soledade de minas,5,394.78
+sooretama,5,456.35
+panorama,5,474.64
+prado,5,1234.5900000000001
+aguas formosas,5,1580.5700000000002
+cassilandia,5,1677.5900000000001
+capim grosso,5,660.78
+capitao leonidas marques,5,512.09
+capitolio,5,590.12
+capivari de baixo,5,1028.73
+monte azul,5,729.88
+monte belo,5,1340.3000000000002
+maracas,5,877.0899999999999
+remanso,5,487.98999999999995
+caldas,5,621.94
+iepe,5,368.51
+tabatinga,5,487.11
+tabira,5,1178.89
+rio azul,5,538.54
+rio casca,5,433.46999999999997
+iraquara,5,510.63
+alto boa vista,5,581.99
+alto parnaiba,5,948.0999999999999
+toritama,5,1277.99
+ibicarai,5,559.6
+terra de areia,5,1250.93
+ribeirao do pinhal,5,447.3299999999999
+cacapava do sul,5,1044.83
+paramirim,5,555.4699999999999
+indianopolis,5,376.86000000000007
+bataguassu,5,732.9200000000001
+ipumirim,5,377.52
+taiuva,5,1010.1299999999999
+ibirarema,5,498.19
+porteirinha,5,358.05
+carapebus,5,786.5199999999999
+brauna,5,482.34999999999997
+marechal floriano,5,681.38
+carmopolis de minas,5,1756.7199999999998
+ariranha,5,647.27
+santo antonio do descoberto,5,992.8800000000001
+feira nova,5,649.77
+agua branca,5,661.1
+porto xavier,5,690.18
+icapui,5,611.59
+iconha,5,390.13
+cunha pora,5,820.9499999999999
+paulo de faria,5,656.48
+paulo frontin,5,707.4
+terra roxa,5,822.51
+tarabai,5,1174.4
+ribeirao claro,5,663.8000000000002
+igarata,5,843.8699999999999
+inacio martins,5,331.28
+altos,5,1560.8700000000001
+custodia,5,752.1700000000002
+abre campo,5,367.2900000000001
+ze doca,5,878.9200000000001
+bom jesus do galho,4,4923.81
+sao bento do una,4,1477.8
+miranda,4,343.15999999999997
+ascurra,4,414.25
+arvorezinha,4,328.78999999999996
+igaracu do tiete,4,157.66
+ribeirao,4,434.53000000000003
+tarumirim,4,912.25
+ilha de itamaraca,4,632.1500000000001
+eneas marques,4,237.14999999999998
+posto da mata,4,620.13
+agua doce do norte,4,463.52
+carajas,4,646.5600000000001
+minas novas,4,507.14
+matipo,4,552.35
+santo antonio do jardim,4,294.35
+santo antonio do amparo,4,477.0300000000001
+santo antonio das missoes,4,495.32000000000005
+carmo da cachoeira,4,370.64000000000004
+santanesia,4,439.58000000000004
+terra boa,4,773.42
+teolandia,4,260.77
+cruzilia,4,447.26
+curiuva,4,364.52
+inaja,4,522.63
+maristela,4,731.4200000000001
+florida paulista,4,416.53
+figueira,4,1012.8699999999999
+vila dos cabanos,4,597.67
+poco verde,4,689.3100000000001
+bom jesus do norte,4,781.8499999999999
+sao geraldo,4,547.8100000000001
+sao domingos do prata,4,424.99
+monte alegre de minas,4,302.90999999999997
+maracacume,4,802.4200000000001
+mantenopolis,4,503.02
+parambu,4,269.22
+parelhas,4,1496.8
+rianapolis,4,534.47
+cachoeira,4,573.71
+paranaita,4,2016.4699999999998
+ilhota,4,877.22
+cristais paulista,4,600.6400000000001
+varjota,4,901.1799999999998
+formoso do araguaia,4,354.12
+boa vista da aparecida,4,264.63
+maravilhas,4,516.36
+santana do acarau,4,1563.5800000000002
+santana da vargem,4,353.59999999999997
+santana do jacare,4,1769.2200000000003
+manoel ribas,4,742.3199999999999
+mandaguacu,4,3325.86
+ipua,4,2096.16
+ipu,4,545.2
+indiara,4,449.46999999999997
+ipiranga,4,256.83
+ipiabas,4,657.72
+imbuia,4,1759.81
+catuipe,4,655.72
+avelar,4,824.24
+piranhas,4,911.8100000000001
+piranga,4,400.39
+valenca do piaui,4,1247.8700000000001
+aiuruoca,4,365.03
+araputanga,4,645.25
+santa mariana,4,373.35
+tibagi,4,386.07
+bela cruz,4,1024.47
+riacho de santana,4,1302.47
+tailandia,4,2256.46
+santa maria de itabira,4,570.49
+muqui,4,574.3800000000001
+macedonia,4,388.43
+munhoz,4,477.12
+capao do leao,4,1254.6599999999999
+mutuipe,4,580.0900000000001
+canelinha,4,1012.72
+candiota,4,899.5999999999999
+varre-sai,4,1035.37
+gameleira,4,1827.12
+fundao,4,437.33
+alcobaca,4,1481.9
+quarai,4,2474.1499999999996
+pirenopolis,4,355.74
+candido rodrigues,4,134.3
+munhoz de melo,4,1037.26
+chapada gaucha,4,528.01
+chapada dos guimaraes,4,854.78
+centenario do sul,4,465.35
+barro,4,769.02
+rio bonito do iguacu,4,536.22
+rio bananal,4,332.32000000000005
+rio do pires,4,731.25
+parauna,4,610.16
+caiaponia,4,428.97
+santa fe de goias,4,1921.2700000000002
+balneario barra do sul,4,482.62
+balneario arroio do silva,4,450.66999999999996
+ibiam,4,460.34
+alto rio doce,4,278.54999999999995
+delmiro gouveia,4,1353.71
+iacu,4,499.85
+irapua,4,268.14
+irani,4,372.32000000000005
+corupa,4,568.4300000000001
+rio do campo,4,822.25
+nova bassano,4,471.77
+nova bandeirantes,4,665.53
+nova aurora,4,1174.5900000000001
+sao jose do egito,4,630.2
+chapada,4,1545.33
+cerro azul,4,250.18
+santa lucia,4,522.75
+corumbaiba,4,256.47
+paracuru,4,705.92
+palma,4,504.04999999999995
+itabela,4,529.97
+itaipava,4,520.02
+irineopolis,4,279.87
+tanhacu,4,609.8
+presidente tancredo neves,4,325.58
+pilar,4,265.31
+pilao arcado,4,364.67999999999995
+urucui,4,820.26
+dores do rio preto,4,526.3299999999999
+dom silverio,4,484.12
+gandu,4,507.45
+forquilha,4,477.45000000000005
+lavinia,4,390.4100000000001
+renascenca,4,352.23
+cabralia paulista,4,263.31
+pejucara,4,830.35
+rio piracicaba,4,580.14
+corrente,4,1831.14
+arace,4,491.18000000000006
+sao miguel do guapore,4,622.23
+candido de abreu,4,439.92
+candelaria,4,673.1
+sao miguel,4,1004.52
+chopinzinho,4,211.14000000000001
+nova olinda do maranhao,4,1724.3299999999997
+urania,4,980.29
+glicerio,4,847.1300000000001
+pien,4,405.37
+brejo da madre de deus,4,512.73
+nova olinda,4,1849.72
+itaperucu,4,707.2
+itapemirim,4,459.34
+itapecuru mirim,4,702.95
+analandia,4,575.7
+itanhomi,4,375.53
+rio novo,4,613.25
+papagaios,4,367.66
+santa cruz de monte castelo,4,793.0500000000001
+ladario,4,380.36
+coaraci,4,1468.1200000000001
+clementina,4,472.97999999999996
+claudia,4,418.38
+sao sebastiao do alto,4,616.7
+santa barbara d oeste,4,214.76000000000002
+campos sales,4,1853.7800000000002
+campos gerais,4,571.1700000000001
+pecanha,4,988.53
+peabiru,4,748.5000000000001
+tombos,4,420.1
+tiradentes,4,653.58
+iapu,4,497.92999999999995
+humaita,4,447.71000000000004
+palma sola,4,1010.55
+campo alegre,4,1228.35
+una,4,541.51
+uibai,4,639.3599999999999
+ubaitaba,4,667.93
+governador portela,4,430.01
+gouveia,4,1167.23
+edeia,4,560.9100000000001
+santa cruz da conceicao,4,476.27000000000004
+sao sebastiao da grama,4,1102.02
+sao pedro dos ferros,4,875.73
+juti,4,719.48
+jussara,4,175.5
+colinas,4,1311.4899999999998
+cocalinho,4,576.56
+cocal do sul,4,2182.24
+jucurutu,4,839.8299999999999
+juatuba,4,699.3299999999999
+sanclerlandia,4,510.34000000000003
+salto veloso,4,497.07000000000005
+conservatoria,4,997.1700000000001
+silva jardim,4,691.27
+sideropolis,4,371.11
+cameta,4,521.85
+padre bernardo,4,263.69
+guimarania,4,609.33
+caarapo,4,1447.93
+pedrinhas paulista,4,485.48
+rio preto,4,233.2
+sete barras,4,302.52000000000004
+sertanopolis,4,1008.1399999999999
+sertania,4,479.91999999999996
+itatinga,4,1832.1
+salto do lontra,4,900.1099999999999
+salto do jacui,4,301.94
+barra do bugres,4,943.6500000000001
+joaquim nabuco,4,350.45
+jari,4,421.21000000000004
+saudades,4,428.94999999999993
+pinheiro,4,553.23
+quilombo,4,240.79000000000002
+jijoca de jericoacoara,4,1262.22
+jesuitas,4,642.93
+nova santa rosa,4,496.62
+condor,4,301.46999999999997
+condado,4,1071.1100000000001
+conceicao dos ouros,4,714.92
+itiuba,4,387.5
+tupancireta,4,469.50999999999993
+guadalupe,4,1502.76
+anta gorda,4,655.25
+sapucai-mirim,4,647.16
+jatoba,4,709.61
+jacaraci,4,1040.27
+saudade do iguacu,4,328.37
+jacui,4,475.87
+jacinto machado,4,447.17
+conceicao das pedras,4,412.05
+ouro preto do oeste,4,718.48
+barreirinhas,4,490.72999999999996
+serra do ramalho,4,406.71999999999997
+buriticupu,4,837.4
+buenopolis,4,1464.2199999999998
+bueno brandao,4,238.32999999999998
+quintana,4,435.85
+campo do meio,4,309.08
+jambeiro,4,395.0400000000001
+jaguaruana,4,1339.3000000000002
+trindade do sul,4,3372.73
+travessao,4,510.43
+goianapolis,4,1224.0400000000002
+senador pompeu,4,718.11
+rosana,4,295.31
+guarai,4,1459.3700000000001
+guaraciaba do norte,4,738.15
+guaraci,4,1213.53
+guaruja do sul,4,395.63
+altinopolis,4,1506.04
+trombudo central,4,250.85999999999999
+bernardino de campos,4,328.87
+peixoto de azevedo,4,491.56000000000006
+congonhal,4,568.1899999999999
+bom repouso,4,487.95000000000005
+pongai,4,429.05
+carbonita,4,841.1200000000001
+milagres,4,1016.3299999999999
+merces,4,285.81999999999994
+maurilandia,4,334.51
+volta grande,4,379.96
+moju,4,372.88
+fazenda nova,4,407.77
+fatima do sul,4,1536.86
+entre-ijuis,3,552.5200000000001
+fatima,3,617.92
+mombuca,3,144.47
+vitorino freire,3,1744.37
+ponte serrada,3,483.78
+xique-xique,3,230.56
+estreito,3,427.65
+vila rica,3,335.35999999999996
+virgem da lapa,3,864.44
+visconde de maua,3,188.05
+witmarsum,3,230.35000000000002
+xambioa,3,429.76
+ilha comprida,3,254.85
+iguatama,3,360.4
+terra nova do norte,3,499.35
+paulistana,3,1013.26
+patu,3,302.87
+pedra branca,3,183.99
+abadia dos dourados,3,413.5
+vianopolis,3,616.76
+eliseu martins,3,403.06
+verissimo,3,353.01
+vere,3,818.22
+pouso redondo,3,655.27
+pouso alto,3,302.81
+pote,3,577.53
+mato verde,3,651.31
+carneirinho,3,345.03
+jaciara,3,252.88
+japira,3,451.94
+janiopolis,3,316.22
+barra do turvo,3,380.5
+barra do tarrachil,3,359.94
+tres arroios,3,236.8
+pereiro,3,379.74
+alfredo vasconcelos,3,616.74
+barra do mendes,3,383.28000000000003
+rodelas,3,464.74999999999994
+rodeiro,3,482.21
+campinapolis,3,387.09000000000003
+rubim,3,289.48
+jaguari,3,209.34000000000003
+itubera,3,181.22000000000003
+cabeceira grande,3,348.75
+conceicao do jacuipe,3,247.07999999999998
+conceicao das alagoas,3,1641.4
+conceicao da barra,3,398.59
+barracao,3,166.70999999999998
+barra dos coqueiros,3,629.46
+oroco,3,389.46000000000004
+ouro verde,3,356.03999999999996
+barras,3,291.68
+serranopolis,3,1210.27
+jaborandi,3,166.38
+ivinhema,3,308.82
+buerarema,3,1116.8100000000002
+pindobacu,3,243.72
+pindare mirim,3,586.2
+oriente,3,1075.02
+olho d'agua das flores,3,346.07
+goianesia do para,3,964.7099999999999
+urubici,3,378.58000000000004
+novo oriente,3,321.4
+antonio prado de minas,3,334.21
+antonio carlos,3,294.15
+anta,3,291.53000000000003
+coluna,3,344.56
+colorado do oeste,3,334.64
+colonia castrolanda,3,1041.71
+colniza,3,875.49
+jaqueira,3,679.1700000000001
+sabino,3,802.87
+dionisio cerqueira,3,500.53999999999996
+guapiara,3,251.95000000000002
+tucunduva,3,437.36
+conceicao do para,3,749.55
+conceicao do tocantins,3,433.96999999999997
+itirucu,3,845.37
+itinga,3,434.67
+setubinha,3,328.77000000000004
+campestre,3,384.32
+oscar bressane,3,339.93
+ritapolis,3,212.32999999999998
+riqueza,3,302.68
+nuporanga,3,895.41
+novo sao joaquim,3,362.64000000000004
+raposo,3,650.8399999999999
+tuparetama,3,437.69000000000005
+tupandi,3,361.03999999999996
+guajara-mirim,3,202.85
+grao para,3,269.93
+grao mogol,3,999.3
+jardim do serido,3,555.81
+dom basilio,3,172.70999999999998
+dom aquino,3,520.36
+dois irmaos do buriti,3,890.15
+uaua,3,473.03999999999996
+gaurama,3,356.61
+uniao de minas,3,128.71
+belo vale,3,374.48
+quixabeira,3,309.41999999999996
+quinta do sol,3,178.66
+joao alfredo,3,300.07
+nova soure,3,325.43000000000006
+ivate,3,358.34
+itapora,3,248.44
+corbelia,3,785.2199999999999
+concordia do para,3,1120.9
+hidreletrica tucurui,3,721.48
+herculandia,3,220.64
+pedro afonso,3,368.9
+pedrinopolis,3,553.3
+recreio,3,334.19
+rio real,3,480.5999999999999
+sertao,3,410.35
+salgado filho,3,219.94
+barra do choca,3,877.49
+nova hartz,3,755.22
+sao valentim,3,609.47
+sao tome,3,350.39
+sao tomas de aquino,3,382.55999999999995
+sao sebastiao do maranhao,3,255.20999999999998
+joao ramalho,3,479.57000000000005
+colinas do tocantins,3,643.0799999999999
+sao pedro do ivai,3,546.72
+juruena,3,394.38
+jumirim,3,408.24000000000007
+jose de freitas,3,350.42
+itatim,3,400.46
+itarantim,3,574.72
+itarana,3,1010.02
+silvianopolis,3,186.76000000000002
+silveiras,3,474.25000000000006
+angulo,3,394.06
+coracao de jesus,3,173.38
+itapitanga,3,264.09000000000003
+itapissuma,3,370.86
+pains,3,406.77
+palmeiras de goias,3,407.33000000000004
+riolandia,3,470.31
+timburi,3,390.86
+ibiai,3,689.95
+iati,3,807.24
+alterosa,3,308.64
+alta floresta d'oeste,3,805.5
+itamari,3,324.99
+umbauba,3,315.39
+uchoa,3,641.29
+ubaporanga,3,360.71000000000004
+ubajara,3,1414.6299999999999
+governador celso ramos,3,463.36
+goncalves,3,405.07
+goianinha,3,454.71000000000004
+uruana,3,1355.9499999999998
+campos borges,3,877.04
+nova erechim,3,306.78000000000003
+itaja,3,1001.9
+itapaci,3,302.13
+itaoca,3,575.21
+sume,3,364.39
+rio maria,3,435.57
+pantano grande,3,348.93
+reriutaba,3,1331.63
+lagoa dos gatos,3,1073.47
+bandeira,3,419.21000000000004
+coelho neto,3,418.6
+jundiai do sul,3,384.01
+clevelandia,3,218.19
+joaquim tavora,3,392.01
+saloa,3,1536.08
+tomazina,3,411.31
+tiros,3,218.65999999999997
+chapadinha,3,287.06
+lagoinha,3,668.73
+sao martinho,3,938.3100000000001
+sanharo,3,2310.0
+sangao,3,316.25
+urai,3,334.39
+upanema,3,1476.25
+piedade dos gerais,3,440.16
+piedade do rio grande,3,466.9
+breu branco,3,575.7
+brasil novo,3,396.1
+propria,3,559.99
+nova monte verde,3,330.92999999999995
+apodi,3,492.07
+itajuipe,3,852.2800000000002
+coremas,3,367.59
+redentora,3,449.34000000000003
+cabo verde,3,519.17
+bela vista do paraiso,3,658.49
+bela vista,3,522.88
+iaciara,3,787.1199999999999
+ibiraci,3,443.48
+pedreiras,3,1141.76
+rio fortuna,3,527.4699999999999
+sucesso,3,485.92
+andrelandia,3,169.07
+araci,3,358.24
+neves paulista,3,154.32
+nova cruz,3,583.25
+nova canaa do norte,3,227.15
+camutanga,3,385.34000000000003
+sao mateus do maranhao,3,930.6999999999999
+itaju,3,1008.3699999999999
+paraibano,3,422.90999999999997
+parai,3,290.6
+itaituba,3,392.63
+itaitinga,3,638.55
+itacarambi,3,399.58
+ita,3,368.03
+ibiapina,3,289.34
+dom pedro,3,438.67999999999995
+gastao vidigal,3,283.72
+garrafao do norte,3,762.0
+fortuna,3,661.92
+aragarcas,3,247.60000000000002
+lavras do sul,3,646.5600000000001
+lajinha,3,567.6899999999999
+reginopolis,3,1719.32
+alto jequitiba,3,275.42999999999995
+delfinopolis,3,318.02
+restinga seca,3,324.33
+reserva,3,371.55
+resende costa,3,276.09000000000003
+coruripe,3,1359.09
+santa margarida,3,468.48
+nova alvorada do sul,3,476.87999999999994
+nazare,3,504.82000000000005
+liberdade,3,150.9
+sao ludgero,3,746.51
+santa isabel do ivai,3,478.6
+sao luis do paraitinga,3,945.99
+sao pedro da uniao,3,451.64
+aquidauana,3,154.75
+coronel joao sa,3,689.71
+tabocas do brejo velho,3,199.95999999999998
+luiziania,3,270.23
+sao jose do barreiro,3,260.89
+sao jose de uba,3,544.52
+sao jose de mipibu,3,956.19
+arandu,3,332.64
+barbosa ferraz,3,562.57
+nova alvorada,3,331.88
+balneario rincao,3,444.3
+balneario gaivota,3,329.12
+sao jose do cerrito,3,333.34000000000003
+lontras,3,455.59000000000003
+lobato,3,562.77
+sao jose do turvo,3,285.36
+timbe do sul,3,262.92
+toropi,3,1682.98
+gameleiras,3,529.9399999999999
+fronteiras,3,1408.8400000000001
+alambari,3,228.94
+pirauba,3,307.69000000000005
+candido sales,3,472.5199999999999
+cedro de sao joao,3,2235.98
+luminarias,3,468.68
+rio de contas,3,290.72
+caibi,3,180.41000000000003
+paraiso do norte,3,258.69
+barros cassal,3,800.36
+barro alto,3,255.51000000000002
+cacule,3,615.05
+rio do oeste,3,433.84000000000003
+americano do brasil,3,346.28999999999996
+amelia rodrigues,3,430.02
+alto santo,3,801.01
+beberibe,3,1823.9099999999999
+baturite,3,551.09
+riacho dos machados,3,331.25
+pedralva,3,844.33
+ibimirim,3,372.03
+ibicoara,3,359.84
+batalha,3,308.1
+ipueiras,3,1805.78
+ipubi,3,525.79
+sao jose da bela vista,3,379.07
+luzilandia,3,273.01
+lupercio,3,172.11
+capela do alto,3,1004.25
+capela,3,889.17
+capao do cipo,3,400.99
+morro reuter,3,741.4000000000001
+morretes,3,639.65
+morada nova de minas,3,730.3699999999999
+valentim gentil,3,418.87
+vale real,3,264.34
+utinga,3,396.97
+urutai,3,184.79
+urupa,3,403.21
+francisco sa,3,599.75
+francisco badaro,3,435.80999999999995
+madre de deus de minas,3,422.11
+machadinho d'oeste,3,572.96
+santa rita de minas,3,428.77
+santa rita d'oeste,3,219.73000000000002
+caiana,3,285.61
+alto taquari,3,821.17
+ipiacu,3,534.0899999999999
+inubia paulista,3,344.7
+cristalia,3,517.31
+cristalandia,3,1067.93
+tanque novo,3,447.39000000000004
+paranacity,3,222.60000000000002
+sao joao do manteninha,3,537.22
+monte verde,3,463.45000000000005
+sao joao de iracema,3,213.38
+sao joao d'alianca,3,844.86
+sao joao batista do gloria,3,436.83000000000004
+sao goncalo do rio preto,3,397.9
+bacuri,3,444.21000000000004
+azurita,3,220.85000000000002
+santa tereza do oeste,3,420.59000000000003
+santa rosa de lima,3,232.79000000000002
+areia branca,3,312.99
+arealva,3,236.92
+maranguape,3,345.53
+santaluz,3,333.97
+santa terezinha de itaipu,3,378.11
+moreira sales,3,433.48
+santana do cariri,3,946.6800000000001
+major vieira,3,329.03
+catarina,3,295.29
+castanheira,3,189.39
+manga,3,445.78999999999996
+manduri,3,287.21000000000004
+indiapora,3,404.14
+cristais,3,249.61
+crisopolis,3,242.61
+indiana,3,389.33000000000004
+imaculada,3,471.91
+ilopolis,3,231.58
+cruzalia,3,348.25
+cristal,3,631.04
+cachoeira dourada,3,327.69000000000005
+areia branca dos assis,3,569.4300000000001
+aguas vermelhas,3,692.8900000000001
+aguas de santa barbara,3,202.03
+dumont,3,336.92
+formoso,3,929.0300000000001
+formosa do rio preto,3,1628.1600000000003
+vera cruz do oeste,3,488.34000000000003
+vera,3,336.24
+boa viagem,3,546.76
+pocrane,3,223.12
+ventania,3,209.88
+maripa,3,432.73
+mario campos,3,690.8999999999999
+sao francisco do conde,3,367.33
+monsenhor tabosa,3,412.31999999999994
+monte carlo,3,372.87
+capitao poco,3,540.89
+manoel viana,3,260.36
+maria da fe,3,365.65
+carvalhopolis,3,308.84000000000003
+carrancas,3,180.62
+areiopolis,3,944.24
+areias,3,568.6300000000001
+belo campo,3,257.64
+cachoeira de pajeu,3,504.03
+cacequi,3,342.23
+paranaiguara,3,293.35
+tejupa,3,382.4
+curaca,3,542.24
+cuite,3,796.51
+cururupu,3,754.67
+curuca,3,604.4499999999999
+alvorada do norte,3,221.72
+altonia,3,557.1800000000001
+marco,3,756.76
+florestopolis,3,575.77
+florestal,3,382.46999999999997
+pocinhos,3,351.92
+piumhi,3,283.52000000000004
+pitanga,3,607.71
+presidente medici,3,332.32
+poloni,3,222.41000000000003
+prados,3,250.95000000000002
+santo antonio do itambe,3,289.46999999999997
+santo antonio da alegria,3,250.03
+santana do mundau,3,1268.01
+santana do manhuacu,3,281.44
+mirante do paranapanema,3,242.49
+carmo de minas,3,699.5300000000001
+massaranduba,3,479.34
+mari,3,342.79999999999995
+augusto correa,3,440.0
+montalvania,3,422.43
+caravelas,3,466.78
+sao goncalo do para,3,975.8499999999999
+ribeirao do sul,3,415.45
+pedra,3,349.78999999999996
+teofilandia,3,236.92000000000002
+tenente portela,3,604.0500000000001
+vista alegre do alto,3,327.66999999999996
+entre rios do oeste,3,148.57999999999998
+estrela do norte,3,210.76999999999998
+sao bernardo,3,923.3899999999999
+mirandiba,3,323.16
+mineiros do tiete,3,257.34000000000003
+arrozal,3,912.81
+arroio grande,3,457.84000000000003
+santo antonio do sudoeste,3,268.07
+carius,3,618.69
+abatia,3,220.19
+inaciolandia,3,952.9200000000001
+imigrante,3,357.34999999999997
+ribeira,3,248.02999999999997
+taquarivai,3,738.9000000000001
+cruz machado,3,523.23
+guaraciaba,3,320.31
+descoberto,3,264.02000000000004
+alto alegre,3,366.40999999999997
+tucuma,3,585.23
+pedro osorio,3,752.98
+ituacu,3,478.07000000000005
+vila langaro,3,191.91
+vila flores,3,462.5
+esperantinopolis,3,771.41
+bom jesus do tocantins,3,506.46
+mirinzal,3,311.65
+carire,3,236.28
+meleiro,3,262.78999999999996
+maximiliano de almeida,3,422.54999999999995
+caraubas,3,1246.76
+carambei,3,456.25
+abare,2,224.73
+bom jesus das selvas,2,301.41999999999996
+agua comprida,2,140.65
+agua clara,2,259.17
+agronomica,2,281.5
+fazenda vilanova,2,192.21
+extremoz,2,160.14
+erval grande,2,432.74
+espigao,2,100.52
+pocoes,2,399.2
+bonfinopolis de minas,2,1433.7500000000002
+bonfinopolis,2,512.6
+bom retiro do sul,2,1484.21
+pontalina,2,488.71999999999997
+victor graeff,2,181.25
+vicentinopolis,2,420.54999999999995
+vicencia,2,325.48
+massape,2,182.79
+mascote,2,158.99
+carinhanha,2,451.5
+careacu,2,169.58999999999997
+milha,2,288.29999999999995
+miranorte,2,733.42
+miraima,2,291.3
+maua da serra,2,167.12
+matutina,2,167.66
+aruana,2,180.31
+arroio do tigre,2,319.0
+santo antonio do pinhal,2,1252.69
+santo antonio do palma,2,104.09
+carlinda,2,245.67000000000002
+caririacu,2,519.14
+acu,2,553.45
+materlandia,2,113.46000000000001
+matelandia,2,87.6
+mata roma,2,260.90999999999997
+mata grande,2,469.34999999999997
+carnaubal,2,265.88
+sao domingos do maranhao,2,219.51
+arraias,2,254.23000000000002
+santo antonio do grama,2,275.36
+moncoes,2,379.13
+mojui dos campos,2,180.87
+mogi-mirim,2,112.61
+cariri do tocantins,2,354.26
+santo eduardo,2,260.06
+meruoca,2,160.85
+mercedes,2,266.38
+medeiros,2,317.7
+arenapolis,2,396.46000000000004
+arembepe,2,494.06
+sao bras do suacui,2,129.71
+carnaubais,2,429.65000000000003
+carmopolis,2,163.45
+carmo do rio verde,2,206.32
+augusto pestana,2,143.95
+ataleia,2,200.69
+santana dos montes,2,296.46000000000004
+santana do serido,2,943.37
+caraiba,2,487.15
+carlos chagas,2,157.37
+martins,2,250.31
+matrincha,2,207.18
+matoes do norte,2,772.28
+mato leitao,2,226.59
+martinho campos,2,473.7
+marinopolis,2,188.98000000000002
+mariluz,2,349.65
+mariapolis,2,140.98000000000002
+sao francisco do guapore,2,405.61
+sao francisco de assis,2,145.39
+sao felipe,2,827.01
+monnerat,2,376.86
+mondai,2,458.31
+monte formoso,2,103.19
+monte castelo,2,203.54000000000002
+monte alegre,2,190.39999999999998
+montauri,2,514.4200000000001
+aurea,2,451.5
+arneiroz,2,462.53
+armazem,2,289.35
+sao joao do oriente,2,318.11
+areia,2,233.46
+aratuba,2,429.74
+sao goncalo do abaete,2,216.48
+maragogipe,2,195.04000000000002
+santana do araguaia,2,481.59
+santana da boa vista,2,115.8
+santa terezinha,2,361.53
+capinzal do norte,2,460.6
+capim branco,2,187.17
+caputira,2,590.6600000000001
+maracana,2,331.25
+mara rosa,2,218.17000000000002
+mar vermelho,2,689.02
+carutapera,2,251.23000000000002
+carolina,2,500.69
+sao joao do manhuacu,2,199.26
+sao joao do ivai,2,229.56
+sao joao de pirabas,2,305.33000000000004
+sao joao das missoes,2,165.15
+sao joao da mata,2,228.39
+mambai,2,921.9
+ceara-mirim,2,351.02
+cavalcante,2,228.07
+catu de abrantes,2,1295.8600000000001
+lunardelli,2,250.07999999999998
+baianopolis,2,493.28
+avelino lopes,2,142.72
+santa teresinha,2,338.1
+morpara,2,393.73
+castro alves,2,101.76
+castelo do piaui,2,577.6700000000001
+arari,2,828.79
+sao joao do sul,2,902.37
+mairi,2,974.31
+maioba,2,696.9499999999999
+magda,2,496.07
+mae do rio,2,203.61
+sao jose da vitoria,2,225.76000000000002
+sao jose da laje,2,296.36
+santa rita do ibitipoca,2,216.81
+santa monica,2,384.83000000000004
+santa mercedes,2,269.57000000000005
+santa maria do suacui,2,517.75
+santa maria do para,2,164.89
+murutinga do sul,2,855.71
+muquem do sao francisco,2,104.21
+montezuma,2,220.35
+arapei,2,353.71
+sao jose da coroa grande,2,289.78999999999996
+sao jorge do patrocinio,2,123.72000000000001
+machacalis,2,175.17
+macaparana,2,208.71
+macambara,2,205.72
+luz,2,200.53
+lupionopolis,2,248.77
+lindoeste,2,198.25
+motuca,2,182.29
+capetinga,2,239.37
+capela de santana,2,417.53000000000003
+capao da porteira,2,215.13
+moreilandia,2,295.12
+sao joao do triunfo,2,201.82
+ararica,2,252.0
+luisburgo,2,314.57
+lucianopolis,2,199.97
+lourdes,2,223.84
+sao jose do rio claro,2,351.04999999999995
+baldim,2,699.0400000000001
+santa maria da serra,2,169.42000000000002
+santa maria da boa vista,2,488.56999999999994
+canhotinho,2,430.49
+nazario,2,274.39
+nazareno,2,190.26
+muniz freire,2,279.13
+limeira do oeste,2,502.42999999999995
+celso ramos,2,1440.9400000000005
+celina,2,208.23
+luizlandia do oeste,2,265.31
+luiziana,2,186.57
+chale,2,156.22
+chacara,2,226.28
+cerro grande do sul,2,222.36
+sao jose dos quatro marcos,2,312.23
+santa izabel do oeste,2,356.35
+santa helena de minas,2,303.63
+santa ernestina,2,280.13
+santa cruz do prata,2,158.72
+nossa senhora do remedio,2,163.29000000000002
+nossa senhora das gracas,2,80.75
+nossa senhora da gloria,2,274.72
+aramari,2,222.56
+araguapaz,2,160.89
+sao jose do divino,2,826.1700000000001
+sao jose do belmonte,2,299.84000000000003
+luiz alves,2,144.4
+lavras da mangabeira,2,986.4599999999999
+laranjal do jari,2,426.18000000000006
+laranjal,2,359.39
+sao miguel do tapuio,2,524.54
+canitar,2,317.91999999999996
+caninde de sao francisco,2,359.83
+nova cantu,2,234.31
+nova canaa paulista,2,139.15
+nova canaa,2,210.07999999999998
+nova campina,2,209.51999999999998
+nova brasilandia d'oeste,2,472.14
+narandiba,2,436.65999999999997
+sao jose do hortencio,2,373.23
+sao jose do goiabal,2,247.67
+araponga,2,305.13
+chapada do norte,2,411.86999999999995
+sao paulo das missoes,2,459.26
+sao miguel dos campos,2,1054.11
+juranda,2,69.94
+bandeirantes do tocantins,2,432.2
+bandeira do sul,2,466.30000000000007
+santa cruz de salinas,2,261.72
+santa cruz de goias,2,779.69
+nova esperanca do sul,2,368.64
+nonoai,2,252.67
+nipoa,2,372.35
+sao miguel do gostoso,2,473.04
+chaveslandia,2,277.51
+sao luis do quitunde,2,351.55
+sao luis do curu,2,258.71
+aracitaba,2,156.74
+leandro ferreira,2,248.10000000000002
+jupi,2,666.8599999999999
+junqueiro,2,464.40999999999997
+ladainha,2,210.20999999999998
+kalore,2,563.96
+sao pedro de alcantara,2,312.90999999999997
+santa clara do sul,2,394.12
+santa barbara do sul,2,180.09
+nova olimpia,2,272.03999999999996
+nova mamore,2,803.1600000000001
+barao de cotegipe,2,154.70999999999998
+apuiares,2,421.56000000000006
+aparecida de sao manuel,2,256.78999999999996
+sao paulo do potengi,2,319.78
+lagoa nova,2,205.2
+lagoa do ouro,2,373.35
+lagoa do carro,2,880.78
+sao thome das letras,2,85.5
+joao camara,2,1466.8100000000002
+junco do serido,2,318.41999999999996
+julio mesquita,2,984.59
+jucurucu,2,478.31
+jequia da praia,2,351.24
+sapopema,2,193.31
+salto do ceu,2,175.61
+salto da divisa,2,151.66000000000003
+salmourao,2,90.27
+sao sebastiao da boa vista,2,264.6
+sao roque de minas,2,210.54000000000002
+sao pedro do turvo,2,117.9
+juvenilia,2,109.1
+jussari,2,213.19
+juscimeira,2,167.0
+jardim alegre,2,161.44
+jaraguari,2,110.52
+jesupolis,2,195.34
+jeronimo monteiro,2,321.11
+jequitiba,2,703.86
+jequitai,2,243.3
+nova palma,2,466.62
+novo barreiro,2,232.03000000000003
+barra de sao miguel,2,226.64000000000001
+barra de santo antonio,2,629.12
+barra de guabiraba,2,565.8
+barra,2,194.83999999999997
+nova itaberaba,2,344.77
+sapeacu,2,303.47
+sape,2,2042.83
+sao vicente ferrer,2,528.65
+satuba,2,438.32
+conceicao,2,175.24
+colonia leopoldina,2,531.85
+colonia jordaozinho,2,1071.03
+colmeia,2,180.69
+olho d'agua das cunhas,2,370.97
+oeiras do para,2,247.45999999999998
+ocara,2,162.69
+novo repartimento,2,260.16
+novo oriente do piaui,2,252.57
+campo novo,2,593.01
+sarapui,2,280.89
+antonio pereira,2,122.32
+antonio cardoso,2,439.92
+jatauba,2,212.12
+saude,2,169.98000000000002
+jaguaquara,2,237.14000000000001
+ivai,2,645.77
+iuna,2,176.26999999999998
+rondon,2,318.86
+roncador,2,191.73000000000002
+romaria,2,310.46
+oliveira dos brejinhos,2,185.84
+olindina,2,229.59
+jacinto,2,144.46
+jacigua,2,175.11
+jaci,2,143.41
+jandaira,2,226.2
+jaguaruna,2,196.89
+seberi,2,169.67000000000002
+jaboti,2,196.95999999999998
+satubinha,2,229.96999999999997
+itororo,2,709.37
+congonhinhas,2,338.86
+conceicao da feira,2,802.95
+rodolfo fernandes,2,168.19
+rodeio bonito,2,264.44
+roca sales,2,237.16000000000003
+campina do monte alegre,2,291.99
+campina das missoes,2,211.0
+rubiacea,2,250.15
+seringueiras,2,504.64
+sericita,2,253.62
+senhora de oliveira,2,169.94
+senador modestino goncalves,2,153.17000000000002
+senador guiomard,2,547.09
+senador firmino,2,180.44
+senador amaral,2,228.00000000000003
+itaquirai,2,388.72
+conde,2,881.52
+itirapina,2,179.21
+itaueira,2,173.62
+campestre da serra,2,1390.06
+oros,2,160.71
+ouro verde de minas,2,114.19
+serro,2,876.62
+serrita,2,483.72
+serranopolis do iguacu,2,305.73
+serrania,2,382.17
+serra dourada,2,234.2
+serra de sao bento,2,328.15
+serra azul de minas,2,388.01
+jabora,2,302.79
+itueta,2,508.94
+anitapolis,2,642.38
+coqueiro baixo,2,121.75999999999999
+itapiuna,2,106.24000000000001
+itapirapua paulista,2,514.0699999999999
+itapirapua,2,495.34
+itamogi,2,269.03000000000003
+itamira,2,100.2
+cambira,2,519.35
+pacoti,2,222.29000000000002
+rio tinto,2,490.25
+campina da lagoa,2,593.8199999999999
+campestre do maranhao,2,340.95
+serrolandia,2,363.65999999999997
+itau,2,761.37
+itatiaiucu,2,167.15
+itaquitinga,2,127.78999999999999
+corumba de goias,2,163.28
+anastacio,2,153.35
+sitio novo do tocantins,2,476.27
+sitio novo,2,229.28000000000003
+sitio do quinto,2,131.65
+sinimbu,2,112.11000000000001
+simolandia,2,169.73
+palmeirinha,2,93.8
+palmeiras,2,292.3
+campo alegre de goias,2,240.27
+itambaraca,2,326.27
+itapicuru,2,181.54
+itapetim,2,371.99
+coroados,2,239.34
+coroaci,2,374.99
+corguinho,2,262.66999999999996
+tabapora,2,286.07000000000005
+iraucuba,2,244.13
+irara,2,222.82
+campanario,2,313.29
+camocim de sao felix,2,419.02
+california,2,133.95
+caldeirao grande,2,268.87
+panelas,2,210.49
+rio formoso,2,268.93
+sucupira do norte,2,404.20000000000005
+sonora,2,91.38
+solonopole,2,785.74
+cortes,2,305.32000000000005
+correntina,2,188.11
+coronel martins,2,152.14
+coronel macedo,2,118.25
+coxilha,2,191.5
+couto de magalhaes,2,242.63
+cotriguacu,2,220.48
+costa marques,2,1658.28
+corumbatai,2,74.13
+ipixuna do para,2,242.99
+rio do antonio,2,301.75
+rio das antas,2,213.78
+bataypora,2,292.02
+caiua,2,170.99
+paiva,2,181.74
+itaguaru,2,117.66
+itaguara,2,76.47
+itaguaje,2,168.96
+itagiba,2,144.86
+itagi,2,164.64
+irai,2,598.26
+iracema,2,308.77
+barrolandia,2,124.53999999999999
+rinopolis,2,134.56
+paranatinga,2,2574.32
+paranapua,2,87.80000000000001
+anadia,2,462.59999999999997
+ametista do sul,2,275.51
+amaraji,2,521.89
+tabuleiro,2,382.78000000000003
+itabatan,2,196.40000000000003
+itabaianinha,2,289.33
+irupi,2,287.63
+tanque d'arca,2,611.54
+irape,2,429.30000000000007
+iramaia,2,199.37
+ipe,2,229.22000000000003
+ipaporanga,2,453.81
+inimutaba,2,376.39
+cristiano otoni,2,279.38
+imbe de minas,2,245.81
+parana,2,195.25
+passa tres,2,97.37
+paripiranga,2,156.65
+cafeara,2,309.82
+rifaina,2,597.77
+ribeiraozinho,2,358.01
+ribeirao vermelho,2,352.53000000000003
+tamarana,2,160.84
+taciba,2,419.6
+tacaratu,2,263.65000000000003
+irai de minas,2,536.94
+alvarenga,2,245.10999999999999
+tapiramuta,2,1476.8999999999999
+tapirai,2,140.53000000000003
+inconfidentes,2,208.97
+ribeirao branco,2,515.49
+cachoeira do campo,2,909.84
+cachoeira da prata,2,214.43
+imbau,2,154.87
+cruzeiro da fortaleza,2,144.3
+crissiumal,2,1671.3000000000002
+crisolita,2,134.24
+inhauma,2,161.20999999999998
+inhapi,2,1075.1
+iguai,2,587.1400000000001
+igreja nova,2,315.90999999999997
+ipigua,2,287.65999999999997
+damianopolis,2,63.839999999999996
+taquaracu de minas,2,392.66
+amapora,2,180.65000000000003
+cristopolis,2,113.94999999999999
+iguaracu,2,659.1999999999999
+passos maia,2,248.1
+paulo lopes,2,271.66
+paulo jacinto,2,475.5799999999999
+pauliceia,2,496.12
+paudalho,2,950.14
+patrocinio paulista,2,1147.46
+patrocinio do muriae,2,134.38
+belmonte,2,262.55
+belem do sao francisco,2,771.02
+alvaro de carvalho,2,399.0
+alvares florence,2,227.23
+iacri,2,81.62
+ibiraja,2,330.14
+igaci,2,395.0
+ielmo marinho,2,240.32
+ichu,2,197.92000000000002
+icarai de minas,2,313.03
+ibirataia,2,91.72
+riacho das almas,2,268.77
+riachinho,2,124.05000000000001
+pedras de fogo,2,204.63
+pedra bela,2,279.31
+pato bragado,2,124.83
+pastos bons,2,210.22
+cumaru,2,399.98
+cumari,2,229.51
+cubati,2,187.59
+ibateguara,2,152.86
+altaneira,2,496.26
+riachao das neves,2,247.76999999999998
+reserva do cabacal,2,440.88
+ibiraiaras,2,267.71
+ibipitanga,2,396.72
+ibicare,2,262.09000000000003
+ibiassuce,2,218.42000000000002
+alto rio novo,2,327.23
+alto parana,2,451.84
+alto paraiso,2,1333.91
+alto horizonte,2,285.15
+alto garcas,2,340.06
+alto caparao,2,522.0799999999999
+david canabarro,2,222.77
+dario meira,2,225.26
+alto alegre do iguacu,2,227.25
+altamira do parana,2,307.11
+alpercata,2,260.77
+trairi,2,543.53
+hidrolina,2,218.95999999999998
+guidoval,2,400.11
+guarani das missoes,2,102.94
+buritizal,2,102.88
+pedregulho,2,1122.18
+pentecoste,2,299.21000000000004
+pendencias,2,410.02
+penaforte,2,559.03
+tomar do geru,2,333.47
+tocos,2,381.47
+tobias barreto,2,264.52
+ibiaca,2,320.87
+guaratinga,2,76.57
+guarara,2,546.5699999999999
+tunas do parana,2,233.3
+alianca do tocantins,2,264.0
+piau,2,161.44
+piata,2,131.35
+piacabucu,2,320.4
+perpetuo socorro,2,182.3
+perola d'oeste,2,672.75
+perola,2,313.31
+peritiba,2,144.70999999999998
+periquito,2,1588.1
+rechan,2,322.37
+deputado irapuan pinheiro,2,239.0
+deodapolis,2,111.21000000000001
+denise,2,566.63
+alhandra,2,1307.91
+alfredo wagner,2,844.67
+alexandria,2,221.92
+diorama,2,266.92
+dionisio,2,154.42000000000002
+diogo de vasconcelos,2,244.70999999999998
+turvania,2,117.35
+rancho queimado,2,343.99
+quixere,2,837.1600000000001
+quixelo,2,200.25
+picui,2,225.61
+buritirama,2,286.11
+buriti dos lopes,2,356.82
+buenos aires,2,311.83000000000004
+guariroba,2,320.56000000000006
+guarda-mor,2,123.11000000000001
+goiabeira,2,302.27
+dobrada,2,508.9
+divisa alegre,2,232.35000000000002
+tutoia,2,556.87
+turvolandia,2,176.09
+quitandinha,2,405.09
+pindorama do tocantins,2,174.18
+pindorama,2,405.52
+pindoba,2,542.52
+pindai,2,171.54
+pimenteiras,2,193.21
+pimenta,2,271.26
+tuparendi,2,291.12
+guamare,2,242.64
+guaiuba,2,762.05
+grandes rios,2,157.75
+urandi,2,767.8100000000001
+glorinha,2,283.3
+gloria do goita,2,587.92
+getulina,2,131.02
+gaviao peixoto,2,142.04000000000002
+ajuricaba,2,245.37
+urucurituba,2,242.94
+pintadas,2,520.5
+quijingue,2,268.06
+quevedos,2,131.69
+queluz,2,249.9
+bento de abreu,2,371.47999999999996
+benevides,2,343.03000000000003
+governador lindenberg,2,136.28
+goianorte,2,229.5
+urucuca,2,257.27
+uruoca,2,295.57000000000005
+alagoinha,2,339.52000000000004
+quadra,2,147.64000000000001
+bras pires,2,108.02
+braco do rio,2,138.93
+piracuruca,2,347.44
+putinga,2,182.56
+prudente de morais,2,168.49
+protasio alves,2,165.06
+bias fortes,2,108.47999999999999
+gaucha do norte,2,214.94
+dormentes,2,1067.73
+dona francisca,2,340.15
+dona euzebia,2,354.93999999999994
+domiciano ribeiro,2,149.38
+dom vicoso,2,313.8
+varjao de minas,2,131.89999999999998
+durande,2,146.19
+doverlandia,2,311.87
+formigueiro,2,311.27
+bodoco,2,269.03000000000003
+bocaiuva do sul,2,72.7
+boca da mata,2,298.03
+boa vista do gurupi,2,154.75
+piripa,2,110.84
+vargem,2,101.5
+frecheirinha,2,213.71
+francisco dumont,2,141.87
+engenheiro passos,2,291.24
+echapora,2,847.25
+fruta de leite,2,212.16
+frei martinho,2,393.21000000000004
+varzelandia,2,131.44
+varzea alegre,2,198.65
+flores,2,467.40999999999997
+floreal,2,225.0
+florai,2,422.95
+flor da serra do sul,2,232.06
+figueiropolis d'oeste,2,114.42
+vigia,2,236.75
+planura,2,151.1
+planaltina de goias,2,131.61
+placas,2,318.58000000000004
+presidente kubitschek,2,156.06
+presidente kennedy,2,282.31
+presidente alves,2,140.42
+bodoquena,2,495.53
+aguas de sao pedro,2,304.03
+emilianopolis,2,198.49
+elisio medrado,2,118.75
+ferros,2,147.36
+feliz deserto,2,423.75
+vereda,2,356.65
+agua santa,2,227.59000000000003
+poxoreu,2,172.59
+potim,2,279.84000000000003
+potengi,2,331.95000000000005
+porto trombetas,2,300.29
+porto franco,2,349.14
+porto firme,2,188.5
+botuvera,2,215.17000000000002
+borrazopolis,2,312.23
+brazabrantes,2,82.7
+venturosa,2,1297.06
+abaiara,2,332.15
+zortea,2,137.57
+afranio,2,448.03999999999996
+xavantina,2,217.70999999999998
+xapuri,2,445.89
+xambre,2,547.74
+werneck,2,445.61
+wenceslau braz,2,250.51
+wanderley,2,333.11
+acaiaca,2,207.9
+abaira,2,203.0
+boqueirao do leao,2,300.14
+euclides da cunha paulista,2,186.39
+estrela do indaia,2,147.5
+vila nova,2,117.19
+vila nelita,2,167.98000000000002
+acegua,2,282.39
+virgolandia,2,413.44
+espirito santo do turvo,2,268.84000000000003
+espigao alto do iguacu,2,209.32
+bom jesus da serra,2,322.28999999999996
+bom jesus da penha,2,120.84
+porto esperidiao,2,278.83000000000004
+porto calvo,2,397.93
+porto amazonas,2,93.21
+portelandia,2,130.63
+portalegre,2,513.01
+porangaba,2,195.63
+ponto dos volantes,2,74.3
+pontalinda,2,84.75
+boninal,2,909.8
+zacarias,2,229.85
+abadiania,1,1025.52
+abrantes,1,200.35
+acajutiba,1,50.95
+epitaciolandia,1,139.52
+entre folhas,1,106.07
+eugenio de castro,1,111.76
+estrela velha,1,30.0
+estrela do sul,1,105.28
+aguas claras,1,116.96
+agua preta,1,147.34
+agua nova,1,77.67
+agua limpa,1,416.8
+agua fria de goias,1,167.81
+agua doce,1,336.05
+agrolandia,1,60.91
+felisburgo,1,123.47
+felipe guerra,1,157.64999999999998
+felicio dos santos,1,191.58
+faxinalzinho,1,35.95
+bom retiro,1,88.37
+bom jesus do sul,1,245.10000000000002
+bom jesus do querendo,1,188.55
+pombos,1,131.43
+bom jesus do araguaia,1,1247.2900000000002
+bom jesus do amparo,1,218.54
+bom jardim de goias,1,25.1
+porto estrela,1,156.72
+porto de pedras,1,200.35
+porto alegre do norte,1,445.32
+porto acre,1,104.35000000000001
+portela,1,246.26
+porteiras,1,42.18
+populina,1,71.3
+ponto novo,1,377.0
+ponto do marambaia,1,28.799999999999997
+praia norte,1,113.35
+pouso novo,1,81.82
+porto rico,1,318.92
+porto murtinho,1,71.15
+porto lucena,1,77.56
+porto grande,1,64.14
+polo petroquimico de triunfo,1,20.7
+botupora,1,346.51
+botelho,1,265.03999999999996
+bossoroca,1,213.34
+boraceia,1,39.96
+bora,1,139.71
+boquira,1,95.67
+bonito de santa fe,1,162.85
+bonito de minas,1,115.44
+pocoes de paineiras,1,145.95000000000002
+poco redondo,1,546.78
+poco de pedra,1,190.66
+pocao de pedras,1,214.05
+pocao,1,318.53000000000003
+planaltino,1,254.44
+planaltina do parana,1,25.85
+pium,1,45.629999999999995
+pitimbu,1,455.10999999999996
+pitanga de estrada,1,154.82999999999998
+presidente nereu,1,70.61
+presidente lucena,1,32.089999999999996
+presidente juscelino,1,302.46000000000004
+presidente janio quadros,1,173.88
+presidente castello branco,1,35.0
+pratapolis,1,68.62
+pranchita,1,182.35999999999999
+princesa isabel,1,344.62
+boa ventura,1,31.689999999999998
+boa esperanca do iguacu,1,51.0
+biritinga,1,147.57
+bertopolis,1,82.12
+bodo,1,84.57
+boa vista do sul,1,46.22
+boa vista do cadeado,1,464.98
+boa vista do burica,1,252.09
+boa vista das missoes,1,367.56
+pirpirituba,1,1372.25
+pires ferreira,1,43.79
+piratini,1,87.64
+pirapo,1,96.28999999999999
+brejetuba,1,144.54
+braunas,1,105.28
+brasileia,1,139.53
+brasilandia de minas,1,98.49
+brasilandia,1,75.07
+pirambu,1,305.77
+pirajuba,1,152.61
+pirai do norte,1,46.28
+piracema,1,166.59
+piquerobi,1,112.45
+pio xii,1,546.03
+pio ix,1,184.84
+puxinana,1,271.03
+purilandia,1,194.48000000000002
+pureza,1,65.0
+pugmil,1,148.15
+prudencio thomaz,1,49.040000000000006
+progresso,1,242.59
+breves,1,710.19
+brejolandia,1,34.78
+brejoes,1,143.34
+brejo grande,1,268.84
+brejo dos santos,1,125.94
+brejo do cruz,1,1217.78
+brejo bonito,1,153.9
+brejo,1,138.24
+pinhotiba,1,77.57
+quilometro 14 do mutum,1,66.00999999999999
+querencia do norte,1,99.43
+queixada,1,77.28999999999999
+queiroz,1,58.9
+quatro pontes,1,167.66
+quatituba,1,114.85
+brasopolis,1,115.89999999999999
+bugre,1,209.3
+picarras,1,170.84
+picarra,1,1122.86
+picada cafe,1,49.6
+bertolinia,1,483.87
+berizal,1,221.98000000000002
+berilo,1,78.22
+bequimao,1,386.15
+benedito leite,1,134.12
+bemposta,1,48.11
+quipapa,1,272.99
+pinhal da serra,1,35.0
+pingo-d'agua,1,413.02000000000004
+pindoretama,1,63.17999999999999
+brotas de macaubas,1,185.62
+britania,1,105.36999999999999
+piacu,1,194.48000000000002
+piacatu,1,74.13
+pescador,1,44.42
+perola independente,1,104.46000000000001
+perobal,1,95.31
+peri mirim,1,59.83
+redencao do gurgueia,1,257.56
+redencao da serra,1,106.23
+ravena,1,86.72999999999999
+rancho alegre d'oeste,1,149.29
+rancho alegre,1,102.66000000000001
+rainha do mar,1,82.03
+buriti do tocantins,1,86.78999999999999
+buriti alegre,1,48.22
+buriti,1,229.91
+buique,1,253.09
+pavao,1,75.63
+retirolandia,1,117.0
+ressaquinha,1,229.07
+reserva do iguacu,1,28.52
+remigio,1,169.92000000000002
+cabixi,1,234.5
+cabeceiras,1,33.13
+cabaceiras do paraguacu,1,48.69
+pereiras,1,69.69
+pequizeiro,1,253.98000000000002
+pequi,1,197.5
+peixe,1,117.16
+pedro velho,1,99.11
+pedro ii,1,127.77000000000001
+pedro gomes,1,132.38
+pianco,1,2324.99
+paulistania,1,116.94
+paula freitas,1,553.46
+paula candido,1,168.19
+pau d'arco,1,83.05
+pau brasil,1,315.91999999999996
+bela vista do maranhao,1,83.15
+bela vista de minas,1,134.51
+riachuelo,1,90.97
+riacho de santo antonio,1,159.6
+riacho da cruz,1,177.34
+pedras altas,1,105.28
+pedrao,1,343.71
+pedranopolis,1,74.41
+pedra menina,1,38.5
+pedra lavrada,1,87.9
+pedra do indaia,1,96.08
+parnarama,1,217.82
+parisi,1,46.34
+paripueira,1,379.2
+pareci novo,1,37.1
+pardinho,1,355.06
+paranhos,1,309.99
+ribeiropolis,1,100.77000000000001
+ribeiro junqueira,1,200.32999999999998
+ribeirao cascalheira,1,67.39
+ribeira do amparo,1,61.79
+ribas do rio pardo,1,66.13
+cachoeira do brumado,1,211.17000000000002
+cacaulandia,1,108.73
+patis,1,65.0
+passo de camaragibe,1,110.27999999999999
+passira,1,461.72
+paraiso das aguas,1,53.34
+camacho,1,80.9
+bataipora,1,180.10000000000002
+barrocas,1,118.25999999999999
+barro preto,1,146.57999999999998
+rincao,1,97.63
+caetes,1,166.04000000000002
+caem,1,80.02
+paranapoema,1,140.49
+paraju,1,105.74000000000001
+cajuri,1,71.53
+cajueiro,1,138.15
+cajari,1,316.3
+passagem franca,1,87.66
+passagem,1,1265.83
+passa tempo,1,146.46
+caldeirao grande do piaui,1,180.76
+caldas do jorro,1,394.52
+caldas brandao,1,192.32
+calcado,1,223.54
+pancas,1,198.9
+palmopolis,1,113.19999999999999
+rio grande do piaui,1,45.7
+rio espera,1,176.45000000000002
+rio dos indios,1,102.75
+rio dos cedros,1,67.82
+rio doce,1,96.2
+cajapio,1,149.16
+cairu,1,78.64
+caicara do norte,1,1157.41
+caibate,1,340.23999999999995
+paraiso do sul,1,47.29
+cambiasca,1,38.089999999999996
+cambara do sul,1,400.64
+paineiras,1,81.98
+paial,1,165.71
+padre paraiso,1,77.57
+padre gonzales,1,69.53999999999999
+padre carvalho,1,582.94
+pacuja,1,538.4
+pacotuba,1,69.14
+riversul,1,102.03
+rio rufino,1,76.66
+palminopolis,1,237.94
+palmeira d oeste,1,64.42
+palmares paulista,1,70.92999999999999
+palhano,1,136.6
+calmon,1,67.5
+campo alegre de lourdes,1,124.88999999999999
+onda verde,1,89.49000000000001
+olhos d'agua,1,119.84
+barreira,1,142.01
+barra longa,1,1341.55
+barra do rio azul,1,148.71
+campinacu,1,195.91
+osvaldo kroeff,1,262.16
+orobo,1,142.63
+orizania,1,190.08999999999997
+ouvidor,1,401.07
+ouro verde do oeste,1,27.380000000000003
+ouro verde de goias,1,98.23
+ouro,1,310.25
+ourizona,1,167.8
+ourem,1,66.05
+oiapoque,1,425.24
+novo planalto,1,46.29
+novo mundo,1,77.13
+sabaudia,1,20.42
+rubineia,1,112.2
+rubelita,1,80.88
+rosario do ivai,1,47.230000000000004
+rosario,1,79.04
+romelandia,1,176.87
+campo grande do piaui,1,190.88
+campo florido,1,92.02
+campo do tenente,1,71.03999999999999
+campo do brito,1,114.89
+campo azul,1,96.22
+campo alegre do fidalgo,1,263.94
+campo alegre de minas,1,137.93
+novo jardim,1,60.98
+novo itacolomi,1,122.22
+novo cabrais,1,71.15
+novo brasil,1,103.75
+novo alegre,1,319.09000000000003
+novais,1,111.99000000000001
+nova vicosa,1,271.01
+nova ubirata,1,123.75
+nova timboteua,1,133.05
+campos verdes,1,413.04
+barra do jacare,1,71.42999999999999
+barra de santa rosa,1,291.5
+sacra familia do tingua,1,149.04
+saboeiro,1,201.83
+oleo,1,73.34
+olaria,1,96.22
+candido mendes,1,316.58000000000004
+sambaiba,1,215.47
+salvador do sul,1,206.99
+salto grande,1,674.34
+salto do itarare,1,276.46999999999997
+salobro,1,89.15
+salinas da margarida,1,82.12
+campo magro,1,64.75999999999999
+nova santa barbara,1,130.53
+nova roma do sul,1,1127.29
+nova roma,1,67.59
+nova resende,1,26.09
+nova redencao,1,36.69
+nova padua,1,89.36000000000001
+novo machado,1,77.66
+novo lino,1,114.26
+nova esperanca do sudoeste,1,100.33
+nova esperanca do piria,1,2252.66
+santa clara d'oeste,1,115.44
+santa cecilia do pavao,1,72.14
+santa brigida,1,104.73
+santa barbara do para,1,245.45
+santa amelia,1,175.87
+sanga puita,1,53.69
+sandolandia,1,841.28
+nova luzitania,1,34.75
+nova laranjeiras,1,251.59
+nova lacerda,1,380.75
+nova ipixuna,1,517.03
+nova independencia,1,34.86
+nova guataporanga,1,117.75999999999999
+nova guarita,1,41.79
+nova araca,1,136.59
+nova america da colina,1,76.65
+nova america,1,66.11
+barauna,1,288.37
+barao do triunfo,1,99.13999999999999
+barao de juparana,1,46.72
+barao ataliba nogueira,1,1351.51
+barao,1,57.53
+banzae,1,127.41999999999999
+bandeirantes d'oeste,1,65.09
+candido godoi,1,1005.8399999999999
+candeias do jamari,1,338.74
+candeal,1,176.65
+canapi,1,377.32
+canaa,1,69.54
+nova floresta,1,155.0
+nantes,1,91.05
+santa leopoldina,1,107.78
+santa isabel do rio preto,1,761.8199999999999
+santa filomena,1,186.4
+santa fe de minas,1,178.27
+santa cruz do timbo,1,49.31
+santa cruz do piaui,1,158.38
+nossa senhora do o,1,61.61
+nossa senhora de lourdes,1,118.1
+nossa senhora de caravaggio,1,154.38
+nossa senhora das dores,1,598.23
+nortelandia,1,210.64000000000001
+nobres,1,59.910000000000004
+cantanhede,1,735.85
+nova crixas,1,176.18
+nova boa vista,1,75.85
+caparao,1,64.42
+canudos,1,232.89000000000001
+canto do buriti,1,674.83
+nacip raydan,1,92.16000000000001
+mutunopolis,1,58.56
+mutum parana,1,62.57
+banabuiu,1,139.61
+balsa nova,1,33.97
+balbinos,1,69.29
+santa luzia do parua,1,115.78
+santa luzia do norte,1,44.95
+candoi,1,79.5
+neopolis,1,257.1
+nazare da mata,1,114.56
+natividade da serra,1,138.89
+natercia,1,57.5
+capoeiras,1,190.53
+santa rita de jacutinga,1,45.089999999999996
+santa rita da floresta,1,96.8
+santa quiteria do maranhao,1,100.75
+santa maria do salto,1,50.480000000000004
+santa maria do herval,1,115.44
+mussurepe,1,117.94
+murucupi,1,162.13
+muritiba,1,222.63
+murici,1,84.05
+mucurici,1,415.66
+mucuge,1,285.74
+mucambo,1,149.14000000000001
+mossamedes,1,84.14
+capela nova,1,121.27
+capela do alto alegre,1,56.78
+monteiropolis,1,203.43
+baixa grande do ribeiro,1,213.47
+baixa grande,1,66.24
+bacaxa,1,72.50999999999999
+aurora do para,1,115.46000000000001
+santa salete,1,95.0
+santa rosa do sul,1,218.27
+santa rita do itueto,1,77.57
+morro vermelho,1,40.989999999999995
+morro redondo,1,233.66
+morro grande,1,158.57999999999998
+morro do pilar,1,87.64
+morro do ferro,1,154.38
+morro de sao paulo,1,832.0
+morro da garca,1,227.14
+morro agudo de goias,1,50.68
+monte bonito,1,50.34
+monte belo do sul,1,116.74000000000001
+monte alverne,1,282.01
+monte alegre de sergipe,1,128.0
+montanhas,1,361.07
+santana do itarare,1,71.53
+santana do ipanema,1,285.45
+santana do deserto,1,206.99
+santana do capivari,1,39.519999999999996
+santana de pirapama,1,70.74
+capivari do sul,1,197.95
+capitao eneas,1,98.84
+capitao andrade,1,199.0
+capitao,1,146.5
+capistrano,1,72.16
+montividiu do norte,1,33.089999999999996
+miravania,1,50.1
+mirante da serra,1,165.60000000000002
+aurilandia,1,176.2
+augustinopolis,1,144.89
+atilio vivacqua,1,107.78
+atalanta,1,351.0
+atalaia,1,137.65
+assuncao,1,132.69
+santo amaro das brotas,1,62.28
+santana do sobrado,1,54.82
+montadas,1,120.89999999999999
+caraibas,1,249.8
+caracol,1,111.1
+monsenhor paulo,1,69.12
+monte santo,1,40.0
+monte gordo,1,224.17000000000002
+carmesia,1,280.63
+santo antonio do leverger,1,124.41
+santo antonio do leste,1,237.55
+santo antonio do canaa,1,194.88
+santo antonio do caiua,1,302.55
+santo antonio do aventureiro,1,88.91999999999999
+santo antonio do aracangua,1,1117.99
+santo antonio das queimadas,1,112.11999999999999
+santo antonio,1,507.98
+moncao,1,143.35999999999999
+mombaca,1,247.98000000000002
+moema,1,214.12
+moeda,1,85.46000000000001
+mocajuba,1,85.6
+missi,1,152.95
+missao velha,1,40.62
+mauriti,1,57.28
+arvoredo,1,49.4
+arroio trinta,1,185.84
+santo antonio dos campos,1,177.99
+santo antonio do taua,1,57.739999999999995
+santo antonio do rio abaixo,1,24.23
+santo antonio do planalto,1,221.07
+caridade,1,99.9
+mimoso de goias,1,179.12
+miranda do norte,1,154.64
+miraguai,1,183.29
+miradouro,1,64.42
+mira estrela,1,213.56
+ministro andreazza,1,120.05000000000001
+minduri,1,43.18
+minas do leao,1,280.72
+matoes,1,106.3
+mato rico,1,92.65
+matias olimpio,1,841.4
+sao bernardino,1,208.48000000000002
+sao bento abade,1,31.1
+sao bentinho,1,69.15
+sao benedito do sul,1,64.83
+sao benedito do rio preto,1,133.22
+santo inacio,1,79.7
+santo hipolito,1,119.88000000000001
+santo expedito do sul,1,237.54000000000002
+santo expedito,1,293.46
+assare,1,118.25999999999999
+messias targino,1,106.85
+meridiano,1,140.47
+medicilandia,1,43.14
+sao domingos das dores,1,72.45
+sao desiderio,1,161.19
+arraial d ajuda,1,90.7
+aroeiras,1,167.48000000000002
+aribice,1,76.15
+arenopolis,1,128.9
+sao cristovao do sul,1,137.07
+sao clemente,1,154.86
+sao carlos do ivai,1,119.95
+sao bras,1,54.739999999999995
+sao bonifacio,1,116.46000000000001
+carnauba dos dantas,1,168.45000000000002
+carnaiba do sertao,1,99.1
+carmolandia,1,167.45
+mata,1,418.35
+matriz de camaragibe,1,84.9
+martinesia,1,53.230000000000004
+marques de souza,1,45.0
+mariopolis,1,173.95000000000002
+marilena,1,107.86999999999999
+marilandia do sul,1,178.27
+marilac,1,942.78
+mariental,1,1867.85
+maribondo,1,100.97
+mariano moro,1,137.26
+sao francisco do gloria,1,91.35000000000001
+sao francisco do brejao,1,82.75
+sao felix do coribe,1,266.06
+sao felix do araguaia,1,134.64
+sao felix de minas,1,409.5
+sao felix,1,44.69
+sao domingos do araguaia,1,270.65
+mandirituba,1,26.77
+manaira,1,147.4
+mampituba,1,58.550000000000004
+areial,1,194.82
+sao geraldo do baguari,1,142.96
+sao geraldo da piedade,1,181.76000000000002
+marcelino vieira,1,169.02
+maranhaozinho,1,76.57
+maquine,1,207.39999999999998
+mansidao,1,65.78999999999999
+manoel urbano,1,248.71
+cassia dos coqueiros,1,90.17
+caseiros,1,152.66
+cascalho rico,1,85.92
+marechal deodoro,1,379.2
+marcos parente,1,64.5
+macieira,1,55.56
+machados,1,142.66
+machadinho,1,65.6
+sao joao de petropolis,1,43.089999999999996
+sao joao da urtiga,1,156.64000000000001
+sao joao da ponte,1,496.76
+sao joao da parauna,1,187.84
+sao goncalo do rio das pedras,1,196.5
+mamonas,1,246.36
+cedro,1,356.11
+caxingo,1,53.84
+caxambu do sul,1,34.6
+caturama,1,40.79
+malhador,1,58.14
+castanheiras,1,80.8
+manfrinopolis,1,138.07999999999998
+lutecia,1,908.84
+cerrito,1,77.57
+aratiba,1,106.49
+arataca,1,865.78
+araripe,1,155.0
+arara,1,137.14000000000001
+arapua,1,112.77
+sao joao do sobrado,1,73.56
+sao joao do sabugi,1,51.739999999999995
+major porto,1,100.33
+maiquinique,1,139.48000000000002
+magalhaes de almeida,1,323.52
+mae d'agua,1,90.89
+madalena,1,176.24
+macuco de minas,1,215.14
+macuco,1,90.88000000000001
+centralina,1,45.089999999999996
+central de santa helena,1,158.76
+central,1,142.89
+centenario,1,162.47
+ceilandia,1,68.84
+cedro do abaete,1,58.09
+sao jose da tapera,1,144.47
+sao jose da boa vista,1,137.07
+sao jorge do oeste,1,60.53
+sao jorge do ivai,1,395.96
+sao jorge d'oeste,1,111.02000000000001
+sao jorge,1,87.02000000000001
+sao joaquim do monte,1,107.95
+macaubal,1,121.91
+macambira,1,259.15
+luziapolis,1,181.62
+liberato salzano,1,31.22
+leopolis,1,31.38
+leopoldo de bulhoes,1,300.76
+arapoema,1,98.57
+arantina,1,204.41
+aramina,1,111.61000000000001
+arame,1,64.14
+araguana,1,224.07
+sao jose do campestre,1,307.46
+luis correia,1,153.36
+lucena,1,127.17
+loreto,1,1643.64
+lindolfo collor,1,130.65
+lindoia do sul,1,120.22
+cerejeiras,1,161.23
+centro novo do maranhao,1,352.81
+lavrinhas,1,621.35
+laranja da terra,1,85.60000000000001
+lamim,1,108.63000000000001
+lamarao,1,81.34
+lajeado grande,1,145.08
+aracatu,1,95.75999999999999
+sao jose do xingu,1,72.52
+sao jose do serido,1,203.31
+sao jose do ribeirao,1,115.84
+sao jose do piaui,1,173.88
+sao jose do inhacora,1,102.69999999999999
+cha grande,1,186.48999999999998
+cha de alegria,1,108.94999999999999
+cezarina,1,31.72
+cerro negro,1,153.32
+cerro grande,1,68.02
+charrua,1,141.63
+chapadao do lageado,1,321.90000000000003
+laje do muriae,1,235.28
+lagoinha do piaui,1,149.61
+lagoao,1,175.42999999999998
+lagoa salgada,1,82.72
+lagoa real,1,459.92
+sao mamede,1,137.1
+sao luiz do norte,1,148.33
+sao lourenco do piaui,1,191.11
+sao jose dos cordeiros,1,258.03
+araguaia,1,67.23
+araguacu,1,162.86
+aragoiania,1,112.9
+leoberto leal,1,40.089999999999996
+lencois,1,307.68
+lagoa de sao francisco,1,107.02
+lagoa da canoa,1,204.53
+lagoa d'anta,1,194.34
+lagoa,1,180.76
+lago verde,1,134.01
+sao patricio,1,172.95999999999998
+sao nicolau,1,138.6
+sao miguel do cambui,1,77.57
+sao miguel do anta,1,254.08999999999997
+sao miguel do aleixo,1,70.86
+sao miguel das matas,1,221.0
+sao mateus de minas,1,82.88
+chorrocho,1,73.18
+chorozinho,1,398.42
+chiapetta,1,148.15
+chaval,1,179.45
+ciriaco,1,252.74
+cipo-guacu,1,78.71
+cipo,1,230.12
+cidelandia,1,528.8
+aquiraz,1,398.85
+aquidaba,1,113.55
+apuarema,1,204.38
+apore,1,197.38
+apora,1,65.7
+aparecida do rio negro,1,172.57999999999998
+sao pedro da agua branca,1,336.56
+lagoa dos tres cantos,1,91.18
+lagoa dos patos,1,74.05
+lagoa do piaui,1,106.38
+lagoa do mato,1,61.620000000000005
+lagoa de velhos,1,234.19
+jose boiteux,1,165.0
+joaquim pires,1,37.81
+sao sebastiao de campos,1,38.9
+sao sebastiao da serra,1,171.35
+sao sebastiao da amoreira,1,63.230000000000004
+sao rafael,1,62.28
+sao pedro do sul,1,121.97
+sao pedro do iguacu,1,142.96
+sao pedro do butia,1,116.19
+jussiape,1,53.79
+juruti,1,75.53
+juru,1,919.38
+juripiranga,1,157.99
+jurema,1,54.34
+claro dos pocoes,1,123.67999999999999
+claraval,1,197.04
+jerico,1,113.08
+jequeri,1,676.84
+sao vitor,1,121.09
+sao vendelino,1,37.089999999999996
+sao sebastiao do rio verde,1,332.58
+sao sebastiao do paraiba,1,571.16
+coite do noia,1,111.01
+coimbra,1,55.01
+cocos,1,73.27000000000001
+cocalzinho de goias,1,203.08
+cocais,1,281.3
+coari,1,1259.0400000000002
+joao dourado,1,36.69
+jucas,1,363.96
+joselandia,1,109.17999999999999
+jose da penha,1,196.43
+jaquirana,1,547.98
+aparecida de monte alto,1,199.26
+aparecida d'oeste,1,31.75
+antunes,1,135.39
+antonio martins,1,97.67
+antonio goncalves,1,51.69
+antonina do norte,1,130.57999999999998
+jenipapo de minas,1,22.58
+jaupaci,1,105.28
+jaua,1,177.38
+jardim olinda,1,189.84
+jardim de piranhas,1,48.739999999999995
+jardim abc de goias,1,34.089999999999996
+joaima,1,53.0
+jiquirica,1,519.9300000000001
+jeriquara,1,144.65
+japaraiba,1,132.46
+janduis,1,119.38
+jandaia,1,53.4
+jampruca,1,262.83
+jamapara,1,49.6
+jamaica,1,71.85
+selbach,1,68.13
+segredo,1,60.14
+sede alvorada,1,154.9
+sebastiao leal,1,75.89
+saubara,1,228.60000000000002
+satiro dias,1,41.29
+sarutaia,1,71.82
+sardoa,1,137.99
+comercinho,1,144.65
+combinado,1,54.629999999999995
+jaboticatubas,1,808.8699999999999
+serio,1,39.69
+sento se,1,76.08
+senhora dos remedios,1,44.51
+senador salgado filho,1,102.49
+senador la rocque,1,124.43
+senador jose porfirio,1,31.63
+senador cortes,1,400.65999999999997
+jaguaribara,1,125.23
+jaguarembe,1,53.31
+jaguaracu,1,71.03999999999999
+jacuizinho,1,74.26
+jacuipe,1,34.78
+japoata,1,220.60000000000002
+japi,1,294.19
+japaratuba,1,138.24
+itiquira,1,160.66
+serranopolis de minas,1,136.5
+serra dos dourados,1,83.33
+serra do salitre,1,72.05
+serra branca,1,142.26
+serra bonita,1,232.82
+serra azul,1,108.52000000000001
+ivora,1,175.79000000000002
+itutinga,1,96.01
+itupiranga,1,602.38
+confins,1,444.25
+conceicao do formoso,1,215.24
+conceicao do caninde,1,181.81
+conceicao do almeida,1,120.14
+conceicao da ibitipoca,1,55.09
+jacareacanga,1,86.03999999999999
+contenda,1,104.61000000000001
+constantina,1,348.77
+conselheiro mairinck,1,81.55
+conrado,1,126.12
+conquista d'oeste,1,154.04
+silveira martins,1,155.14
+silveira carvalho,1,42.269999999999996
+silvanopolis,1,273.88
+silvano,1,117.94
+severiano melo,1,190.82999999999998
+sete de setembro,1,75.72999999999999
+sertao santana,1,39.129999999999995
+itatiba do sul,1,55.95
+itarema,1,99.95
+itaporanga d'ajuda,1,263.24
+condeuba,1,73.83
+coreau,1,54.81
+cordeiros,1,363.64
+itape,1,258.56
+anhumas,1,72.42
+anhembi,1,120.09
+anhandui,1,83.23
+angustura,1,166.29
+anguera,1,144.99
+angicos,1,101.77
+angical do piaui,1,80.92
+angical,1,293.5
+angelo frechiani,1,43.6
+angelina,1,142.04999999999998
+angelica,1,76.86
+coracao de maria,1,306.06
+coqueiros do sul,1,49.06
+coronel murta,1,255.84
+itaju do colonia,1,56.69
+andre da rocha,1,146.13
+andarai,1,109.5
+anaurilandia,1,86.24
+ananas,1,122.75999999999999
+siriji,1,77.03
+simplicio mendes,1,50.75
+simao pereira,1,175.41
+itaparica,1,188.36
+itapage,1,236.13
+itanhem,1,278.65999999999997
+itanhanga,1,88.05
+coronel joao pessoa,1,124.33000000000001
+coronel freitas,1,98.64999999999999
+coronel domingos soares,1,106.87
+itaguari,1,913.7
+itaguacu da bahia,1,267.89
+itagimirim,1,193.06
+itacoatiara,1,92.97999999999999
+itabirinha,1,157.41
+suzanapolis,1,88.94
+sulina,1,45.0
+solanea,1,519.29
+sobralia,1,40.0
+andrequice,1,215.14
+correntes,1,221.59
+corrego fundo,1,144.65
+corrego do ouro,1,45.01
+corrego danta,1,57.62
+coronel sapucaia,1,106.23
+coronel pacheco,1,99.9
+ipiranga de goias,1,139.98000000000002
+amparo da serra,1,66.06
+amontada,1,81.57
+americo de campos,1,293.35999999999996
+america dourada,1,217.92000000000002
+amargosa,1,71.81
+amarante,1,953.84
+taboquinhas,1,303.27
+itaara,1,73.15
+isaias coelho,1,209.46
+iretama,1,139.59
+itabi,1,141.03
+cotipora,1,127.53
+cotegipe,1,103.14999999999999
+corumbatai do sul,1,45.78
+itaicaba,1,70.03
+ipaumirim,1,307.10999999999996
+iomere,1,63.79
+inocencia,1,54.82
+inhuma,1,112.35
+tangara,1,373.82
+tamboara,1,24.09
+tamandare,1,73.84
+taiacu,1,70.51
+tacuru,1,170.71
+tabuleiro do norte,1,71.88
+anage,1,97.38
+ipupiara,1,525.85
+ipuiuna,1,188.34
+ipueira,1,228.57
+ipiranga do sul,1,133.25
+ipiranga do norte,1,114.83
+igaratinga,1,336.38
+alvorada do gurgueia,1,87.85
+alvorada d'oeste,1,430.1
+tapurah,1,145.11
+tapinas,1,135.07999999999998
+taperuaba,1,82.42
+tapera,1,79.07
+taparuba,1,104.37
+independencia,1,136.05
+ilicinea,1,105.28
+cruzeiro do iguacu,1,148.15
+cravolandia,1,187.83
+ingai,1,109.38
+inga,1,169.99
+indiaroba,1,68.8
+ipecaeta,1,40.19
+igapora,1,56.78
+teixeira soares,1,657.9200000000001
+teixeira,1,69.05
+tecainda,1,165.13
+tavares,1,273.62
+taquarucu do sul,1,93.28999999999999
+taquarana,1,190.43
+amapa do maranhao,1,50.05
+amanari,1,419.39
+crucilandia,1,30.47
+crominia,1,61.0
+croata,1,87.8
+cristinapolis,1,145.37
+ilha grande,1,174.68
+ilha dos valadares,1,93.59
+igrapiuna,1,52.05
+ibitita,1,1534.58
+ibitira,1,421.03
+ibitioca,1,244.91000000000003
+ibitiara,1,157.28
+terra nova,1,267.93
+termas de ibira,1,87.15
+terezinha,1,65.62
+teresina de goias,1,96.8
+terenos,1,85.26
+tenente ananias,1,273.92
+telha,1,229.65
+cupira,1,65.53
+cujubim,1,132.94
+cuite velho,1,35.089999999999996
+igarape-miri,1,65.03
+igarape-acu,1,94.76
+ibiracatu,1,148.15
+ibipeba,1,86.39
+ibicuitinga,1,54.62
+ibiara,1,321.98
+alto sao joao,1,73.25
+alto piquiri,1,432.5
+tibau do sul,1,144.79
+delfim moreira,1,39.37
+datas,1,920.94
+curvelandia,1,243.78
+curralinho,1,355.29
+curral de cima,1,199.0
+ibirapua,1,141.42
+icatu,1,892.9
+icaraima,1,43.95
+ibitiuva,1,27.689999999999998
+guzolandia,1,143.31
+guiricema,1,161.56
+guinda,1,47.11
+guimaraes,1,252.11
+trabiju,1,279.91
+tome-acu,1,50.62
+tocos do moji,1,74.36
+tiradentes do sul,1,67.7
+ibiajara,1,65.8
+ibertioga,1,181.21
+ibema,1,173.89000000000001
+ibarama,1,167.92000000000002
+iaras,1,93.57
+humildes,1,360.81
+humberto de campos,1,81.57
+ibiracu,1,57.5
+desterro de entre rios,1,58.28
+desterro,1,639.98
+desembargador otoni,1,196.02
+demerval lobao,1,40.379999999999995
+guatapara,1,87.97
+guassusse,1,169.92000000000002
+alto alegre do maranhao,1,123.32000000000001
+altinho,1,50.94
+alpestre,1,136.98000000000002
+traipu,1,63.790000000000006
+tracunhaem,1,689.87
+tracuateua,1,39.61
+hulha negra,1,372.06
+herveiras,1,125.52
+herval,1,192.56
+heliopolis,1,169.28
+divinesia,1,333.51
+dias d avila,1,61.79
+guapirama,1,107.78
+guape,1,210.48000000000002
+trombas,1,32.07
+treviso,1,136.98000000000002
+tres irmaos,1,171.20000000000002
+tres forquilhas,1,98.13
+travesseiro,1,32.71
+alto alegre do pindare,1,259.56
+guaraquecaba,1,63.37
+guarapua,1,75.17
+guia lopes da laguna,1,48.22
+diamante d'oeste,1,307.69
+dezesseis de novembro,1,102.75
+desterro do melo,1,35.86
+grupiara,1,148.94
+groairas,1,178.5
+gramado xavier,1,68.97
+almirante tamandare do sul,1,65.0
+almino afonso,1,470.01
+almas,1,113.56
+alianca,1,89.92999999999999
+alfredo marcondes,1,169.23
+alexandrita,1,130.0
+tunapolis,1,343.68
+tumiritinga,1,480.31
+tuiuti,1,60.85
+divinopolis do tocantins,1,139.26999999999998
+divinopolis de goias,1,94.3
+divino de sao lourenco,1,149.16
+divino das laranjeiras,1,51.099999999999994
+dom macedo costa,1,82.83
+dom joaquim,1,163.38
+dom cavati,1,93.08
+dois riachos,1,152.25
+doce grande,1,67.72
+divisa nova,1,788.71
+gramado dos loureiros,1,237.54000000000002
+graccho cardoso,1,723.72
+ubai,1,61.730000000000004
+turvelandia,1,42.4
+tururu,1,215.6
+tupassi,1,32.379999999999995
+tuparece,1,31.73
+guamiranga,1,284.89
+guairaca,1,100.44
+guabiju,1,51.83
+general maynard,1,217.85
+general camara,1,106.87
+uniao da serra,1,33.6
+uniao,1,393.32
+umburatiba,1,134.7
+umburanas,1,123.75
+ulianopolis,1,64.4
+uirauna,1,285.36
+ubirajara,1,96.09
+ubata,1,210.18
+governador mangabeira,1,116.26
+governador eugenio barros,1,417.45
+governador dix-sept rosado,1,194.82
+gongogi,1,52.129999999999995
+goncalves dias,1,99.25
+goiandira,1,113.13000000000001
+douradina,1,118.65
+dona emma,1,47.81
+garruchos,1,79.03999999999999
+urucania,1,200.32999999999998
+uruburetama,1,87.8
+uruana de minas,1,33.0
+unistalda,1,64.47
+uniao dos palmares,1,309.25
+uniao do sul,1,249.2
+uniao do oeste,1,40.089999999999996
+godoy moreira,1,1101.83
+gloria de dourados,1,76.0
+glaura,1,89.36000000000001
+girau do ponciano,1,74.05
+gilbues,1,356.51
+gentio do ouro,1,121.1
+galvao,1,78.02
+galinhos,1,275.48
+galia,1,217.64
+gabriel monteiro,1,48.72
+frutuoso gomes,1,115.87
+frei rogerio,1,121.09
+frei lagonegro,1,260.34000000000003
+frei gaspar,1,89.19
+alexandra,1,51.31
+alegria,1,58.28
+alegrete do piaui,1,173.88
+alcantara,1,464.86
+alagoa nova,1,164.29
+alagoa grande,1,178.52
+alagoa,1,93.98
+urucuia,1,168.29000000000002
+fontoura xavier,1,214.16
+fonseca,1,107.53
+florinia,1,57.61
+vargem grande do rio pardo,1,365.98
+vargem grande,1,137.01
+vargem alegre,1,94.71
+vargeao,1,520.65
+vanini,1,106.87
+vale do sol,1,37.089999999999996
+valao do barro,1,86.53999999999999
+francisco santos,1,41.7
+francisco dantas,1,224.78
+fragosos,1,115.89999999999999
+foz do jordao,1,64.1
+fortim,1,205.53
+fortaleza dos valos,1,119.95
+flora rica,1,237.26
+filadelfia,1,99.16000000000001
+varzea,1,150.18
+ajapi,1,121.34
+aiuaba,1,147.38
+aguia branca,1,31.130000000000003
+agudo,1,32.1
+aguas mornas,1,104.52000000000001
+aguas frias,1,318.98
+vargem grande do soturno,1,111.02000000000001
+duere,1,158.77
+duas barras,1,36.95
+doutor ulysses,1,158.61
+doutor camargo,1,230.63
+formosa do oeste,1,86.15
+formosa da serra negra,1,155.5
+elisiario,1,64.1
+ferreiros,1,133.94
+fernao,1,40.85
+fenix,1,67.92
+feliz natal,1,279.38
+felixlandia,1,90.28
+vermelho novo,1,52.099999999999994
+vermelho,1,116.78999999999999
+venda branca,1,134.82999999999998
+varzedo,1,65.53
+varzea nova,1,108.53
+varzea do poco,1,73.83
+florida,1,86.15
+floresta do araguaia,1,186.79000000000002
+flores de goias,1,43.22
+florania,1,60.34
+farol,1,152.72
+fagundes,1,220.74
+ewbank da camara,1,98.16
+esmeralda,1,160.76
+erico cardoso,1,24.88
+vila flor,1,137.98000000000002
+vila bela da santissima trindade,1,46.78
+vieiras,1,345.15
+vicosa do ceara,1,43.79
+vicentina,1,216.07
+vicente dutra,1,31.22
+vespasiano correa,1,163.25
+vertentes,1,49.62
+engenheiro navarro,1,2106.55
+engenheiro balduino,1,205.54
+embauba,1,414.81
+wagner,1,147.69
+adustina,1,102.27
+adrianopolis,1,89.17
+adhemar de barros,1,166.29
+acucena,1,54.11
+acari,1,412.43
+virginia,1,54.129999999999995
+vila reis,1,86.15
+vila pereira,1,109.21
+vila nova do sul,1,101.34
+estrela d'oeste,1,257.45
+estrela d oeste,1,156.33
+estiva,1,29.130000000000003
+estevao de araujo,1,32.43
+erere,1,226.23
+erebango,1,139.42
+ponto belo,1,98.56
+pontes gestal,1,135.07999999999998
+ponte alta do norte,1,59.46
+pontao,1,71.78999999999999
+abdon batista,1,156.70000000000002
+vitorinos,1,105.36999999999999
+vitorino,1,67.23
+vitoria do mearim,1,64.85
+vitoria do jari,1,137.27
+vitoria das missoes,1,64.0
+vista alegre,1,37.1
+viseu,1,340.02
+agrestina,1,2066.34
+agisse,1,56.37
+xexeu,1,126.16
+wenceslau guimaraes,1,137.5
