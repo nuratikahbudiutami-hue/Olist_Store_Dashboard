@@ -16,7 +16,7 @@ st.set_page_config(
 
 # 2. PATH & LOAD DATA
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-data_dir = os.path.join(BASE_DIR, "data")
+DATA_DIR = os.path.join(BASE_DIR, "data")
 
 @st.cache_data
 def load_data():
